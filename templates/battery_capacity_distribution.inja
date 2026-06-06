@@ -1,0 +1,103 @@
+{# Distribución de Capacidad de Batería — Histograma #}
+
+{% set margin = obj("top", 55, "right", 45, "bottom", 72, "left", 72) %}
+{% set width  = 800 - margin.left - margin.right %}
+{% set height = 500 - margin.top  - margin.bottom %}
+
+{% set xScale = scaleLinear()
+      | domain(bat_min, bat_max)
+      | range(0, width) %}
+
+{% set yScale = scaleLinear()
+      | domain(0, max_count)
+      | range(height, 0)
+      | nice(5) %}
+
+<svg width="{{ width + margin.left + margin.right }}"
+     height="{{ height + margin.top + margin.bottom }}"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .tick-label  { font-family: sans-serif; font-size: 11px; fill: #555; }
+    .axis-line, .tick-line { stroke: #bbb; }
+    .chart-title { font-family: sans-serif; font-size: 15px; font-weight: bold; fill: #222; }
+    .axis-label  { font-family: sans-serif; font-size: 12px; fill: #555; }
+    .median-line { stroke: #FF5722; stroke-width: 2; stroke-dasharray: 6,4; }
+    .median-text { font-family: sans-serif; font-size: 11.5px; fill: #FF5722; }
+    .bar         { fill: #4CAF50; fill-opacity: 0.85; }
+    .bar:hover   { fill-opacity: 1; }
+  </style>
+
+  {# Title #}
+  <text class="chart-title"
+        x="{{ (width + margin.left + margin.right) / 2 }}"
+        y="30"
+        text-anchor="middle">
+    Distribución de Capacidad de Batería
+  </text>
+
+  <g transform="translate({{ margin.left }}, {{ margin.top }})">
+
+    {# Plot background #}
+    <rect x="0" y="0" width="{{ width }}" height="{{ height }}"
+          fill="#F7F7F7" rx="3"/>
+
+    {# Horizontal grid lines #}
+    <g opacity="0.6">
+      {{ call(axisLeft(yScale) | tickCount(6) | grid(true)) }}
+    </g>
+
+    {# Bars #}
+    {% for bin in data %}
+      {% if bin.count > 0 %}
+        <rect class="bar"
+              x="{{ scale(xScale, bin.x0) + 1 }}"
+              y="{{ scale(yScale, bin.count) }}"
+              width="{{ scale(xScale, bin.x1) - scale(xScale, bin.x0) - 1 }}"
+              height="{{ height - scale(yScale, bin.count) }}">
+          <title>{{ bin.x0 }}–{{ bin.x1 }} mAh: {{ bin.count }} modelos</title>
+        </rect>
+      {% endif %}
+    {% endfor %}
+
+    {# Median dashed line #}
+    {% set mx = scale(xScale, median) %}
+    <line class="median-line"
+          x1="{{ mx }}" y1="0"
+          x2="{{ mx }}" y2="{{ height }}"/>
+
+    {# Median annotation #}
+    <text class="median-text"
+          x="{{ mx + 8 }}"
+          y="20"
+          text-anchor="start">
+      Mediana: {{ median }} mAh
+    </text>
+
+    {# X axis #}
+    <g transform="translate(0, {{ height }})">
+      {{ call(axisBottom(xScale) | tickCount(7)) }}
+    </g>
+
+    {# Y axis #}
+    <g>{{ call(axisLeft(yScale) | tickCount(6)) }}</g>
+
+    {# X axis label #}
+    <text class="axis-label"
+          text-anchor="middle"
+          x="{{ width / 2 }}"
+          y="{{ height + 55 }}">
+      Capacidad (mAh)
+    </text>
+
+    {# Y axis label #}
+    <text class="axis-label"
+          text-anchor="middle"
+          transform="rotate(-90)"
+          x="{{ 0 - height / 2 }}"
+          y="-56">
+      Cantidad de modelos
+    </text>
+
+  </g>
+</svg>
