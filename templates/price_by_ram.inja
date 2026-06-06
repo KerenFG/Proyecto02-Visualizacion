@@ -1,23 +1,34 @@
-{# Precio según RAM del Dispositivo — Boxplot manual (rect + line + circle) #}
+{# Precio según RAM del Dispositivo — Gráfica de líneas bidimensional #}
+{# Patrón: line_plot.inja — shapeLine + append por serie #}
 
-{% set margin = obj("top", 55, "right", 45, "bottom", 65, "left", 80) %}
-{% set width  = 760 - margin.left - margin.right %}
-{% set height = 500 - margin.top  - margin.bottom %}
+{% set width  = 760 %}
+{% set height = 500 %}
 
 {% set rams = map(data, "ram") %}
 
 {% set xScale = scaleBand()
-      | domain(rams)
-      | range(0, width)
-      | padding(0.35) %}
+    | domain(rams)
+    | range(80, width - 40)
+    | padding(0.2) %}
 
 {% set yScale = scaleLinear()
-      | domain(0, price_max)
-      | range(height, 0)
-      | nice(5) %}
+    | domain(0, price_max)
+    | range(height - 60, 50) %}
 
-<svg width="{{ width + margin.left + margin.right }}"
-     height="{{ height + margin.top + margin.bottom }}"
+{% set lineShp = shapeLine() | x("x") | y("y") | curve("smooth") %}
+
+{% set q1Data  = [] %}
+{% set medData = [] %}
+{% set q3Data  = [] %}
+
+{% for d in data %}
+  {% set cx = scale(xScale, d.ram) + bandwidth(xScale) / 2 %}
+  {% set q1Data  = q1Data  | append(obj("x", cx, "y", scale(yScale, d.q1))) %}
+  {% set medData = medData | append(obj("x", cx, "y", scale(yScale, d.q2))) %}
+  {% set q3Data  = q3Data  | append(obj("x", cx, "y", scale(yScale, d.q3))) %}
+{% endfor %}
+
+<svg width="{{ width }}" height="{{ height }}"
      xmlns="http://www.w3.org/2000/svg">
 
   <style>
@@ -25,109 +36,94 @@
     .axis-line, .tick-line { stroke: #bbb; }
     .chart-title { font-family: sans-serif; font-size: 15px; font-weight: bold; fill: #222; }
     .axis-label  { font-family: sans-serif; font-size: 12px; fill: #555; }
-    .ram-label   { font-family: sans-serif; font-size: 11px; fill: #444; }
-    .stat-tip    { font-family: sans-serif; font-size: 10px; }
+    .legend-text { font-family: sans-serif; font-size: 11px; fill: #444; }
   </style>
 
   {# Title #}
   <text class="chart-title"
-        x="{{ (width + margin.left + margin.right) / 2 }}"
-        y="30"
+        x="{{ width / 2 }}" y="28"
         text-anchor="middle">
     Precio según RAM del Dispositivo
   </text>
 
-  <g transform="translate({{ margin.left }}, {{ margin.top }})">
+  {# Plot background #}
+  <rect x="80" y="50"
+        width="{{ width - 120 }}" height="{{ height - 110 }}"
+        fill="#F7F7F7" rx="3"/>
 
-    {# Plot background #}
-    <rect x="0" y="0" width="{{ width }}" height="{{ height }}"
-          fill="#F7F7F7" rx="3"/>
+  {# Q3 line — upper quartile, dashed #}
+  <path d="{{ line(lineShp, q3Data) }}"
+        stroke="#90CAF9" stroke-width="2"
+        fill="none" stroke-dasharray="6,3"/>
 
-    {# Horizontal grid lines #}
-    <g opacity="0.55">
-      {{ call(axisLeft(yScale) | tickCount(6) | grid(true)) }}
-    </g>
+  {# Q1 line — lower quartile, dashed #}
+  <path d="{{ line(lineShp, q1Data) }}"
+        stroke="#90CAF9" stroke-width="2"
+        fill="none" stroke-dasharray="6,3"/>
 
-    {# ── Boxes ─────────────────────────────────────────────────────────── #}
-    {% for d in data %}
-      {% set bw   = bandwidth(xScale) %}
-      {% set bx   = scale(xScale, d.ram) %}
-      {% set cx   = bx + bw / 2 %}
-      {% set yq1  = scale(yScale, d.q1) %}
-      {% set yq2  = scale(yScale, d.q2) %}
-      {% set yq3  = scale(yScale, d.q3) %}
-      {% set ylw  = scale(yScale, d.lower_whisker) %}
-      {% set yuw  = scale(yScale, d.upper_whisker) %}
+  {# Median line — solid, prominente #}
+  <path d="{{ line(lineShp, medData) }}"
+        stroke="#1565C0" stroke-width="3"
+        fill="none"/>
 
-      {# Whisker stems #}
-      <line x1="{{ cx }}" y1="{{ yq1 }}" x2="{{ cx }}" y2="{{ ylw }}"
-            stroke="#888" stroke-width="1.2"/>
-      <line x1="{{ cx }}" y1="{{ yq3 }}" x2="{{ cx }}" y2="{{ yuw }}"
-            stroke="#888" stroke-width="1.2"/>
+  {# Data points por serie #}
+  {% for d in data %}
+    {% set cx = scale(xScale, d.ram) + bandwidth(xScale) / 2 %}
+    <circle cx="{{ cx }}" cy="{{ scale(yScale, d.q3) }}"
+            r="4" fill="#90CAF9" stroke="white" stroke-width="1.5">
+      <title>{{ d.ram }} GB — Q3: ${{ d.q3 }}</title>
+    </circle>
+    <circle cx="{{ cx }}" cy="{{ scale(yScale, d.q2) }}"
+            r="6" fill="#1565C0" stroke="white" stroke-width="2">
+      <title>{{ d.ram }} GB — Mediana: ${{ d.q2 }} (n={{ d.count }})</title>
+    </circle>
+    <circle cx="{{ cx }}" cy="{{ scale(yScale, d.q1) }}"
+            r="4" fill="#90CAF9" stroke="white" stroke-width="1.5">
+      <title>{{ d.ram }} GB — Q1: ${{ d.q1 }}</title>
+    </circle>
+  {% endfor %}
 
-      {# Whisker caps #}
-      <line x1="{{ bx + bw * 0.25 }}" y1="{{ ylw }}"
-            x2="{{ bx + bw * 0.75 }}" y2="{{ ylw }}"
-            stroke="#888" stroke-width="1.8"/>
-      <line x1="{{ bx + bw * 0.25 }}" y1="{{ yuw }}"
-            x2="{{ bx + bw * 0.75 }}" y2="{{ yuw }}"
-            stroke="#888" stroke-width="1.8"/>
-
-      {# Box body (IQR) #}
-      <rect x="{{ bx }}" y="{{ yq3 }}"
-            width="{{ bw }}" height="{{ yq1 - yq3 }}"
-            fill="{{ d.color }}" fill-opacity="0.7"
-            stroke="#555" stroke-width="1" rx="2">
-        <title>{{ d.ram }} GB — n={{ d.count }} | Q1=${{ d.q1 }} | Med=${{ d.q2 }} | Q3=${{ d.q3 }}</title>
-      </rect>
-
-      {# Median line #}
-      <line x1="{{ bx }}" y1="{{ yq2 }}"
-            x2="{{ bx + bw }}" y2="{{ yq2 }}"
-            stroke="#222" stroke-width="2.2"/>
-
-      {# Outlier points #}
-      {% for o in d.outliers %}
-        <circle cx="{{ cx }}" cy="{{ scale(yScale, o) }}" r="3"
-                fill="{{ d.color }}" fill-opacity="0.45"
-                stroke="#666" stroke-width="0.8">
-          <title>${{ o }}</title>
-        </circle>
-      {% endfor %}
-
-      {# RAM label on X axis #}
-      <text class="ram-label"
-            x="{{ cx }}"
-            y="{{ height + 20 }}"
-            text-anchor="middle">
-        {{ d.ram }} GB
-      </text>
-
-    {% endfor %}
-
-    {# Y axis #}
-    <g>{{ call(axisLeft(yScale) | tickCount(6) | tickFormat("currency")) }}</g>
-
-    {# Y axis label #}
-    <text class="axis-label"
-          text-anchor="middle"
-          transform="rotate(-90)"
-          x="{{ 0 - height / 2 }}"
-          y="-62">
-      Precio (USD)
-    </text>
-
-    {# X axis base line #}
-    <line x1="0" y1="{{ height }}" x2="{{ width }}" y2="{{ height }}"
-          stroke="#bbb" stroke-width="1"/>
-
-    {# X axis label #}
-    <text class="axis-label"
-          text-anchor="middle"
-          x="{{ width / 2 }}"
-          y="{{ height + 50 }}">
-      RAM (GB)
-    </text>
-
+  {# X axis #}
+  <g transform="translate(0, {{ height - 60 }})">
+    {{ call(axisBottom(xScale) | tickValues(rams)) }}
   </g>
+
+  {# Y axis #}
+  <g transform="translate(80, 0)">
+    {{ call(axisLeft(yScale) | tickCount(6) | tickFormat("currency")) }}
+  </g>
+
+  {# X axis label #}
+  <text class="axis-label"
+        text-anchor="middle"
+        x="{{ width / 2 }}" y="{{ height - 12 }}">
+    RAM (GB)
+  </text>
+
+  {# Y axis label #}
+  <text class="axis-label"
+        text-anchor="middle"
+        transform="rotate(-90)"
+        x="{{ 0 - height / 2 }}" y="18">
+    Precio (USD)
+  </text>
+
+  {# Legend #}
+  <line x1="{{ width - 155 }}" y1="72"
+        x2="{{ width - 122 }}" y2="72"
+        stroke="#1565C0" stroke-width="3"/>
+  <circle cx="{{ width - 138 }}" cy="72"
+          r="5" fill="#1565C0" stroke="white" stroke-width="1.5"/>
+  <text class="legend-text"
+        x="{{ width - 116 }}" y="76">Mediana (Q2)</text>
+
+  <line x1="{{ width - 155 }}" y1="92"
+        x2="{{ width - 122 }}" y2="92"
+        stroke="#90CAF9" stroke-width="2"
+        stroke-dasharray="6,3"/>
+  <circle cx="{{ width - 138 }}" cy="92"
+          r="4" fill="#90CAF9" stroke="white" stroke-width="1"/>
+  <text class="legend-text"
+        x="{{ width - 116 }}" y="96">Q1 / Q3</text>
+
 </svg>
