@@ -94,7 +94,7 @@
     <text class="axis-label"
           text-anchor="middle"
           transform="rotate(-90)"
-          x="{{ -(height / 2) }}"
+          x="{{ 0 - height / 2 }}"
           y="-56">
       Cantidad de modelos
     </text>
