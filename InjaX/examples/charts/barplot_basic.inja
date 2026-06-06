@@ -1,0 +1,46 @@
+{# https://d3-graph-gallery.com/graph/barplot_basic.html #}
+
+{# set the dimensions and margins of the graph #}
+{% set margin = obj("top", 30, "right", 30, "bottom", 70, "left", 60) %}
+{% set width = 460 - margin.left - margin.right %}
+{% set height = 400 - margin.top - margin.bottom %}
+
+{# append the svg object to the body of the page #}
+<svg width="{{width + margin.left + margin.right}}" 
+     height="{{height + margin.top + margin.bottom}}"
+     xmlns="http://www.w3.org/2000/svg">
+  
+  <style>
+    .tick-label { font-family: sans-serif; fill: #333; }
+    .axis-line, .tick-line { stroke: #666; }
+  </style>
+  
+  <g transform="translate({{margin.left}},{{margin.top}})">
+    {% set countries = map(data,"Country") %}
+
+    {# X axis #}
+    {% set x = scaleBand() 
+          | range(0, width)
+          | domain(countries)
+          | padding(0.2) %}
+    
+    <g transform="translate(0,{{height}})">
+      {{ call(axisBottom(x) | tickValues(countries) | tickAngle(45)) }}
+    </g>
+
+    {# Add Y axis #}
+    {% set y = scaleLinear() 
+          | domain([0,13000]) 
+          | range(height, 0) %}
+    <g> {{ call(axisLeft(y) | tickCount(5)) }}</g>
+
+    {# Bars #}
+    {% for d in data %}
+      <rect x="{{ scale(x, d.Country) }}"
+            y="{{ scale(y, d.Value) }}"
+            width="{{ bandwidth(x) }}"
+            height="{{ height - scale(y, d.Value) }}"
+            fill="#69b3a2"/>
+    {% endfor %}
+  </g>
+</svg>

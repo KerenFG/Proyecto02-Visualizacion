@@ -1,0 +1,50 @@
+{# https://d3-graph-gallery.com/graph/barplot_horizontal.html #}
+
+{# set the dimensions and margins of the graph #}
+{% set margin = obj("top", 20, "right", 30, "bottom", 40, "left", 90) %}
+{% set width = 460 - margin.left - margin.right %}
+{% set height = 400 - margin.top - margin.bottom %}
+
+{# append the svg object to the body of the page #}
+<svg width="{{width + margin.left + margin.right}}" 
+     height="{{height + margin.top + margin.bottom}}"
+     xmlns="http://www.w3.org/2000/svg">
+  
+  <style>
+    .tick-label { font-family: sans-serif; fill: #333; }
+    .axis-line, .tick-line { stroke: #666; }
+  </style>
+  
+  <g transform="translate({{margin.left}},{{margin.top}})">
+    {% set countries = map(data,"Country") %}
+    
+    {# Encontrar el valor máximo para el dominio del eje X #}
+    {% set maxValue = max(map(data,"Value")) %}
+
+    {# Add X axis - eje numérico #}
+    {% set x = scaleLinear() 
+          | domain(0, maxValue * 1.1)
+          | range(0,width) %}
+
+    <g transform="translate(0,{{height}})"> 
+      {{ call(axisBottom(x) | tickAngle(-45)) }}
+    </g>
+
+    {# Y axis - eje categórico con los nombres de países #}
+    {% set y = scaleBand() 
+          | range(0, height)
+          | domain(countries)
+          | padding(0.1) %}
+    
+    <g> {{ call(axisLeft(y) | tickValues(countries)) }} </g>
+
+    {# Bars #}
+    {% for d in data %}
+      <rect x="{{ scale(x, 0) }}"
+            y="{{ scale(y, d.Country) }}"
+            width="{{ scale(x, d.Value) }}"
+            height="{{ bandwidth(y) }}"
+            fill="#69b3a2"/>
+    {% endfor %}
+  </g>
+</svg>

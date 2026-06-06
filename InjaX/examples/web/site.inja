@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ store_name }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    {% if announcement_bar.visible %}
+    <div class="bg-black text-white text-sm py-2 text-center font-medium">
+        {{ announcement_bar.text }}
+    </div>
+    {% endif %}
+
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <span class="text-2xl font-bold tracking-tighter text-indigo-600">{{ store_name }}</span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="#shop" class="hover:text-indigo-600 transition">Catalog</a>
+                    <a href="#testimonials" class="hover:text-indigo-600 transition">Reviews</a>
+                    <a href="#newsletter" class="hover:text-indigo-600 transition">Subscribe</a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <button class="relative p-2 hover:bg-gray-100 rounded-full transition">
+                        <i class="fa-solid fa-cart-shopping text-lg"></i>
+                        <span class="absolute top-0 right-0 bg-indigo-600 text-white text-[10px] rounded-full h-4 w-4 flex items-center justify-center">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center py-16 px-4 sm:px-6 lg:px-8">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+                    {{ hero.headline }}
+                </h1>
+                <p class="text-lg text-gray-600 mb-8 max-w-lg">
+                    {{ hero.subheadline }}
+                </p>
+                <a href="{{ hero.cta.href }}" class="inline-block bg-indigo-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-indigo-700 transform hover:scale-105 transition-all shadow-lg">
+                    {{ hero.cta.text }}
+                </a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="{{ hero.image_url }}" alt="Hero Image" class="rounded-2xl shadow-2xl w-full object-cover aspect-video bg-gray-200">
+            </div>
+        </div>
+    </header>
+
+    {% for section in sections %}
+        
+        {% if section.type == "benefits" %}
+        <section class="py-12 bg-gray-100">
+            <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+                {% for item in section.items %}
+                <div class="flex items-center gap-4 p-6 bg-white rounded-xl shadow-sm">
+                    <div class="bg-indigo-100 p-3 rounded-lg text-indigo-600">
+                        <i class="fa-solid fa-{{ item.icon }} text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900">{{ item.title }}</h3>
+                        <p class="text-sm text-gray-500">{{ item.desc }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        {% else if section.type == "product_grid" %}
+        <section id="shop" class="py-20 max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900">{{ section.title }}</h2>
+                    <div class="h-1 w-20 bg-indigo-600 mt-2"></div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                {% for product in section.products %}
+                <div class="group relative bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all">
+                    {% if product.badge %}
+                    <span class="absolute top-4 left-4 z-10 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                        {{ product.badge }}
+                    </span>
+                    {% endif %}
+                    <div class="aspect-square bg-gray-100 overflow-hidden">
+                        <img src="{{ product.image }}" alt="{{ product.name }}" class="w-full h-full object-cover group-hover:scale-110 transition-duration-500">
+                    </div>
+                    <div class="p-5">
+                        <h3 class="text-gray-700 font-medium mb-1 truncate">{{ product.name }}</h3>
+                        <div class="flex items-center gap-2">
+                            <span class="text-xl font-bold text-gray-900">${{ product.price }}</span>
+                            {% if product.old_price %}
+                            <span class="text-sm text-gray-400 line-through">${{ product.old_price }}</span>
+                            {% endif %}
+                        </div>
+                        <button class="w-full mt-4 bg-gray-900 text-white py-2 rounded-lg font-medium hover:bg-indigo-600 transition">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        {% else if section.type == "reviews" %}
+        <section id="testimonials" class="py-20 bg-indigo-900 text-white">
+            <div class="max-w-7xl mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">{{ section.title }}</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    {% for item in section.items %}
+                    <div class="bg-indigo-800/50 p-8 rounded-2xl border border-indigo-700">
+                        <div class="flex text-yellow-400 mb-4 text-sm">
+                            {% for i in range(item.stars) %}<i class="fa-solid fa-star"></i>{% endfor %}
+                        </div>
+                        <p class="text-lg italic mb-6">"{{ item.comment }}"</p>
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 bg-indigo-500 rounded-full flex items-center justify-center font-bold">
+                                {{ item.user }}
+                            </div>
+                            <span class="font-bold text-indigo-200">{{ item.user }}</span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+    {% endfor %}
+
+    <section id="newsletter" class="py-20 max-w-3xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-4">{{ footer.newsletter_title }}</h2>
+        <p class="text-gray-600 mb-8">We promise no spam, just the best offers once a week.</p>
+        <form class="flex flex-col sm:flex-row gap-3">
+            <input type="email" placeholder="your@email.com" class="flex-grow px-6 py-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-600">
+            <button class="bg-indigo-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-indigo-700 transition">Subscribe</button>
+        </form>
+    </section>
+
+    <footer class="bg-white border-t border-gray-200 py-12">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <span class="text-xl font-bold text-gray-900">{{ store_name }}</span>
+                <p class="text-sm text-gray-500 mt-2">© 2026 All rights reserved.</p>
+            </div>
+            <div class="flex gap-6 text-2xl text-gray-400">
+                {% for method in footer.accepted_payments %}
+                <i class="fa-brands fa-cc-{{ method }}"></i>
+                {% endfor %}
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

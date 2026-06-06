@@ -1,0 +1,7 @@
+{
+  "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+  "revenue": [65, 72, 88, 95, 110, 125],
+  "expenses": [55, 58, 65, 70, 75, 80],
+  "width": 700,
+  "height": 450
+}

@@ -1,0 +1,61 @@
+{# https://d3-graph-gallery.com/graph/custom_theme.html #}
+
+{# set the dimensions and margins of the graph #}
+{% set margin = obj("top", 10, "right", 30, "bottom", 40, "left", 50) %}
+{% set width = 520 - margin.left - margin.right %}
+{% set height = 520 - margin.top - margin.bottom %}
+
+{# append the svg object to the body of the page #}
+<svg width="{{width + margin.left + margin.right}}" 
+     height="{{height + margin.top + margin.bottom}}"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <g transform="translate({{margin.left}},{{margin.top}})">
+    
+    {# Add the grey background that makes ggplot2 famous #}
+    <rect x="0" y="0" width="{{ width }}" 
+          height="{{ height }}" fill="#EBEBEB"/>
+
+    {# Add X axis #}
+    {% set x = scaleLinear() 
+          | domain(4*0.95, 8*1.001) 
+          | range(0, width) %}
+    <g transform = "translate(0, {{height}} )">
+    {{ call(axisBottom(x) | tickCount(5))}}
+    </g>
+
+    {# Add Y axis #}
+    {% set y = scaleLinear() 
+           | domain(0-0.001, 9*1.01) 
+           | range(height, 0) | nice(2) %}
+    {{ call(axisLeft(y) | tickCount(7)) }}
+
+    {# Add X axis label #}
+    <text text-anchor="end" 
+          x="{{ width / 2 + margin.left}}" 
+          y="{{height + margin.top + 20}}">
+      Sepal Length
+    </text>
+
+    {# Add Y axis label #}
+    <text text-anchor="end" transform="rotate(-90)"
+       x="{{-margin.left + 20}}" 
+       y="{{-margin.top - height / 2 + 20}}">
+      Sepal Length
+    </text>
+
+    {# // Color scale: give me a specie name, I return a color #}
+    {% set color = scaleOrdinal() 
+          | domain(["setosa", "versicolor", "virginica" ]) 
+          | range(["#F8766D", "#00BA38", "#619CFF"]) %}
+    
+    <g>
+    {% for d in data %}
+      <circle cx="{{ scale(x, d.Sepal_Length) }}"
+              cy="{{ scale(y, d.Petal_Length) }}"
+              r="5"
+              fill="{{ scale(color, d.Species) }}"/>
+    {% endfor %}
+    </g>
+  </g>
+</svg>

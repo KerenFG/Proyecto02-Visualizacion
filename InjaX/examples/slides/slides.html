@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1024" 
+     height="768"
+     viewBox="0 0 1024 768">
+  
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        .slide {
+          visibility: hidden;
+          opacity: 0;
+          transition: opacity 0.3s ease-in-out;
+        }
+        .slide.active {
+          visibility: visible;
+          opacity: 1;
+        }
+        .title-slide {
+          font-family: Arial, sans-serif;
+          text-anchor: middle;
+        }
+        .title-text {
+          font-size: 48px;
+          font-weight: bold;
+          fill: #2c3e50;
+        }
+        .subtitle-text {
+          font-size: 28px;
+          fill: #7f8c8d;
+        }
+        .content-text {
+          font-family: Arial, sans-serif;
+          font-size: 24px;
+          fill: #34495e;
+        }
+        .bullet-point {
+          font-family: Arial, sans-serif;
+          font-size: 22px;
+          fill: #2c3e50;
+        }
+        .slide-number {
+          font-family: Arial, sans-serif;
+          font-size: 14px;
+          fill: #95a5a6;
+          text-anchor: end;
+        }
+        .background {
+          fill: #ffffff;
+        }
+      ]]>
+    </style>
+  </defs>
+  
+  <script type="text/javascript"><![CDATA[
+    var currentSlide = 0;
+    var slides = [];
+    
+    function initPresentation() {
+      var svg = document.querySelector('svg');
+      for (var i = 0; i < svg.childNodes.length; i++) {
+        var node = svg.childNodes[i];
+        if (node.nodeType === 1 && node.getAttribute('data-slide') === 'true') {
+          slides.push(node);
+        }
+      }
+      
+      if (slides.length > 0) {
+        slides[0].classList.add('active');
+      }
+      
+      document.addEventListener('keydown', function(e) {
+        switch(e.key) {
+          case 'ArrowRight':
+            nextSlide();
+            break;
+          case 'ArrowLeft':
+            previousSlide();
+            break;
+        }
+      });
+    }
+    
+    function nextSlide() {
+      if (currentSlide < slides.length - 1) {
+        slides[currentSlide].classList.remove('active');
+        currentSlide++;
+        slides[currentSlide].classList.add('active');
+        updateSlideNumber();
+      }
+    }
+    
+    function previousSlide() {
+      if (currentSlide > 0) {
+        slides[currentSlide].classList.remove('active');
+        currentSlide--;
+        slides[currentSlide].classList.add('active');
+        updateSlideNumber();
+      }
+    }
+    
+    function updateSlideNumber() {
+      var slideNumbers = document.querySelectorAll('[data-slide-number]');
+      for (var i = 0; i < slideNumbers.length; i++) {
+        var numElem = slideNumbers[i];
+        if (numElem.parentNode === slides[currentSlide]) {
+          // Update logic if needed
+        }
+      }
+    }
+    
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initPresentation);
+    } else {
+      initPresentation();
+    }
+  ]]></script>
+  
+  <rect width="100%" height="100%" class="background"/>
+  
+  <g data-slide="true" class="slide" id="slide-0">
+    <rect width="1024" height="768" 
+          fill="#f8f9fa" opacity="1"/>
+    
+    <rect x="0" y="0" width="1024" height="8" 
+          fill="#e74c3c"/>
+    
+    <text x="512.0" y="100" class="title-text" text-anchor="middle">
+      My Presentation
+    </text>
+    
+    <text x="512.0" y="150" class="subtitle-text" text-anchor="middle">
+      A Beamer-style presentation with SVG
+    </text>
+    
+    <text x="100" y="200" class="content-text">
+      Welcome to this interactive presentation
+    </text>
+    <text x="100" y="240" class="content-text">
+      Use the ← → arrow keys to navigate
+    </text>
+    
+    <text x="974" 
+          y="738" 
+          class="slide-number" data-slide-number="true">
+      0 / 7
+    </text>
+  </g>
+  <g data-slide="true" class="slide" id="slide-1">
+    <rect width="1024" height="768" 
+          fill="#ffffff" opacity="1"/>
+    
+    <rect x="0" y="0" width="1024" height="8" 
+          fill="#3498db"/>
+    
+    <text x="512.0" y="100" class="title-text" text-anchor="middle">
+      Features
+    </text>
+    
+    
+    <circle cx="80" cy="185" r="6" fill="#3498db"/>
+    <text x="100" y="200" class="bullet-point">
+      Keyboard navigation (← →)
+    </text>
+    <circle cx="80" cy="220" r="6" fill="#3498db"/>
+    <text x="100" y="235" class="bullet-point">
+      Smooth slide transitions
+    </text>
+    <circle cx="80" cy="255" r="6" fill="#3498db"/>
+    <text x="100" y="270" class="bullet-point">
+      Support for text, bullet points, and images
+    </text>
+    <circle cx="80" cy="290" r="6" fill="#3498db"/>
+    <text x="100" y="305" class="bullet-point">
+      Fully SVG-based
+    </text>
+    <circle cx="80" cy="325" r="6" fill="#3498db"/>
+    <text x="100" y="340" class="bullet-point">
+      Responsive design for any screen size
+    </text>
+    <circle cx="80" cy="360" r="6" fill="#3498db"/>
+    <text x="100" y="375" class="bullet-point">
+      Customizable themes and colors
+    </text>
+    
+    <text x="974" 
+          y="738" 
+          class="slide-number" data-slide-number="true">
+      1 / 7
+    </text>
+  </g>
+  <g data-slide="true" class="slide" id="slide-2">
+    <rect width="1024" height="768" 
+          fill="#f0f0f0" opacity="1"/>
+    
+    <rect x="0" y="0" width="1024" height="8" 
+          fill="#2ecc71"/>
+    
+    <text x="512.0" y="100" class="title-text" text-anchor="middle">
+      Code Example
+    </text>
+    
+    
+    <rect x="100" y="200" 
+          width="800" 
+          height="200" 
+          fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+    <text x="120" y="230" 
+          font-family="Courier, monospace" font-size="16" fill="#2c3e50">
+      <tspan x="120" dy="25">def hello_world():</tspan><tspan x="120" dy="25">    print("Hello from SVG!")</tspan><tspan x="120" dy="25">    </tspan><tspan x="120" dy="25">for i in range(5):</tspan><tspan x="120" dy="25">    print(f"Navigating to slide {i}")</tspan><tspan x="120" dy="25">    </tspan><tspan x="120" dy="25"># Python example with syntax highlighting</tspan><tspan x="120" dy="25">class Presentation:</tspan><tspan x="120" dy="25">    def __init__(self, title):</tspan><tspan x="120" dy="25">        self.title = title</tspan><tspan x="120" dy="25">        self.slides = []</tspan><tspan x="120" dy="25">    </tspan><tspan x="120" dy="25">    def add_slide(self, content):</tspan><tspan x="120" dy="25">        self.slides.append(content)</tspan><tspan x="120" dy="25">        return self</tspan><tspan x="120" dy="25"></tspan>
+    </text>
+    
+    <text x="974" 
+          y="738" 
+          class="slide-number" data-slide-number="true">
+      2 / 7
+    </text>
+  </g>
+  <g data-slide="true" class="slide" id="slide-3">
+    <rect width="1024" height="768" 
+          fill="#f8f9fa" opacity="1"/>
+    
+    <rect x="0" y="0" width="1024" height="8" 
+          fill="#e67e22"/>
+    
+    <text x="512.0" y="100" class="title-text" text-anchor="middle">
+      Advanced Features
+    </text>
+    
+    
+    <text x="100" y="200" class="content-text">
+      Take your presentations to the next level
+    </text>
+    <circle cx="80" cy="220" r="6" fill="#3498db"/>
+    <text x="100" y="235" class="bullet-point">
+      Embed images and diagrams directly in SVG
+    </text>
+    <circle cx="80" cy="255" r="6" fill="#3498db"/>
+    <text x="100" y="270" class="bullet-point">
+      Support for code blocks with syntax highlighting
+    </text>
+    <circle cx="80" cy="290" r="6" fill="#3498db"/>
+    <text x="100" y="305" class="bullet-point">
+      Custom JavaScript for interactive elements
+    </text>
+    <circle cx="80" cy="325" r="6" fill="#3498db"/>
+    <text x="100" y="340" class="bullet-point">
+      Export to PDF or HTML formats
+    </text>
+    <circle cx="80" cy="360" r="6" fill="#3498db"/>
+    <text x="100" y="375" class="bullet-point">
+      Compatible with all modern web browsers
+    </text>
+    
+    <text x="974" 
+          y="738" 
+          class="slide-number" data-slide-number="true">
+      3 / 7
+    </text>
+  </g>
+  <g data-slide="true" class="slide" id="slide-4">
+    <rect width="1024" height="768" 
+          fill="#ffffff" opacity="1"/>
+    
+    <rect x="0" y="0" width="1024" height="8" 
+          fill="#1abc9c"/>
+    
+    <text x="512.0" y="100" class="title-text" text-anchor="middle">
+      Use Cases
+    </text>
+    
+    
+    <circle cx="80" cy="185" r="6" fill="#3498db"/>
+    <text x="100" y="200" class="bullet-point">
+      Academic lectures and conference talks
+    </text>
+    <circle cx="80" cy="220" r="6" fill="#3498db"/>
+    <text x="100" y="235" class="bullet-point">
+      Technical workshops and training sessions
+    </text>
+    <circle cx="80" cy="255" r="6" fill="#3498db"/>
+    <text x="100" y="270" class="bullet-point">
+      Product demonstrations and pitch decks
+    </text>
+    <circle cx="80" cy="290" r="6" fill="#3498db"/>
+    <text x="100" y="305" class="bullet-point">
+      Documentation and API presentations
+    </text>
+    <circle cx="80" cy="325" r="6" fill="#3498db"/>
+    <text x="100" y="340" class="bullet-point">
+      Portfolio showcases and galleries
+    </text>
+    
+    <text x="974" 
+          y="738" 
+          class="slide-number" data-slide-number="true">
+      4 / 7
+    </text>
+  </g>
+  <g data-slide="true" class="slide" id="slide-5">
+    <rect width="1024" height="768" 
+          fill="#f0f0f0" opacity="1"/>
+    
+    <rect x="0" y="0" width="1024" height="8" 
+          fill="#3498db"/>
+    
+    <text x="512.0" y="100" class="title-text" text-anchor="middle">
+      Getting Started
+    </text>
+    
+    
+    <text x="100" y="200" class="content-text">
+      Simple setup process:
+    </text>
+    <circle cx="80" cy="220" r="6" fill="#3498db"/>
+    <text x="100" y="235" class="bullet-point">
+      Install InjaX and dependencies
+    </text>
+    <circle cx="80" cy="255" r="6" fill="#3498db"/>
+    <text x="100" y="270" class="bullet-point">
+      Create your YAML content file
+    </text>
+    <circle cx="80" cy="290" r="6" fill="#3498db"/>
+    <text x="100" y="305" class="bullet-point">
+      Design your SVG template
+    </text>
+    <circle cx="80" cy="325" r="6" fill="#3498db"/>
+    <text x="100" y="340" class="bullet-point">
+      Run injax input.yaml template.svg output.svg
+    </text>
+    <circle cx="80" cy="360" r="6" fill="#3498db"/>
+    <text x="100" y="375" class="bullet-point">
+      Open the resulting SVG in any browser
+    </text>
+    <rect x="100" y="520" 
+          width="800" 
+          height="120" 
+          fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+    <text x="120" y="550" 
+          font-family="Courier, monospace" font-size="16" fill="#2c3e50">
+      <tspan x="120" dy="25"># Quick start example</tspan><tspan x="120" dy="25">$ injax slides.yaml template.svg presentation.svg</tspan><tspan x="120" dy="25">$ open presentation.svg</tspan><tspan x="120" dy="25"></tspan>
+    </text>
+    
+    <text x="974" 
+          y="738" 
+          class="slide-number" data-slide-number="true">
+      5 / 7
+    </text>
+  </g>
+  <g data-slide="true" class="slide" id="slide-6">
+    <rect width="1024" height="768" 
+          fill="#ffffff" opacity="1"/>
+    
+    <rect x="0" y="0" width="1024" height="8" 
+          fill="#9b59b6"/>
+    
+    <text x="512.0" y="100" class="title-text" text-anchor="middle">
+      Conclusion
+    </text>
+    
+    
+    <circle cx="80" cy="185" r="6" fill="#3498db"/>
+    <text x="100" y="200" class="bullet-point">
+      Lightweight and portable presentations
+    </text>
+    <circle cx="80" cy="220" r="6" fill="#3498db"/>
+    <text x="100" y="235" class="bullet-point">
+      No PowerPoint or Beamer required
+    </text>
+    <circle cx="80" cy="255" r="6" fill="#3498db"/>
+    <text x="100" y="270" class="bullet-point">
+      Easy to version control with Git
+    </text>
+    <circle cx="80" cy="290" r="6" fill="#3498db"/>
+    <text x="100" y="305" class="bullet-point">
+      Open source and freely customizable
+    </text>
+    <circle cx="80" cy="325" r="6" fill="#3498db"/>
+    <text x="100" y="340" class="bullet-point">
+      Perfect for developers and technical presenters
+    </text>
+    <text x="100" y="400" class="content-text">
+      Thank you for watching!
+    </text>
+    
+    <text x="974" 
+          y="738" 
+          class="slide-number" data-slide-number="true">
+      6 / 7
+    </text>
+  </g>
+  
+</svg>

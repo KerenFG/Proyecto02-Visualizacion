@@ -1,0 +1,30 @@
+{% set xScale = scaleBand()
+    | domain(months)
+    | range(60, width - 60) 
+    | padding(0.1) %}
+{% set yScale = scaleLinear() 
+    | domain(0, 150) 
+    | range(height - 50, 50) %}
+{% set lineShp = shapeLine() | x("x") | y("y") | curve("smooth") %}
+{% set data = zip_obj(["month","revenue","expenses"], months, revenue, expenses) %}
+{% set revenueData = [] %}
+{% set expensesData = [] %}
+{% for item in data %}
+  {% set revenueData = revenueData
+         | append(obj("x", scale(xScale,item.month) + bandwidth(xScale)/2, "y", scale(yScale,item.revenue))) %}
+  {% set expensesData = expensesData
+         | append(obj("x", scale(xScale,item.month) + bandwidth(xScale)/2, "y", scale(yScale,item.expenses))) %}
+{% endfor %}
+<svg width="{{ width }}" height="{{ height }}"
+     xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(0, {{ height - 50 }})">
+    {{ call(axisBottom(xScale) | tickValues(months)) }}
+  </g>
+  <g transform="translate(60, 0)">
+    {{ call(axisLeft(yScale) | tickCount(5)) }}
+  </g>
+  <path d="{{ line(lineShp, revenueData) }}"
+        stroke="green" stroke-width="2" fill="none"/>
+  <path d="{{ line(lineShp, expensesData) }}" 
+        stroke="red" stroke-width="2" fill="none"/>
+</svg>

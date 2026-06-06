@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="{{ width|default(1024) }}" 
+     height="{{ height|default(768) }}"
+     viewBox="0 0 {{ width|default(1024) }} {{ height|default(768) }}">
+  
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        .slide {
+          visibility: hidden;
+          opacity: 0;
+          transition: opacity 0.3s ease-in-out;
+        }
+        .slide.active {
+          visibility: visible;
+          opacity: 1;
+        }
+        .title-slide {
+          font-family: Arial, sans-serif;
+          text-anchor: middle;
+        }
+        .title-text {
+          font-size: 48px;
+          font-weight: bold;
+          fill: #2c3e50;
+        }
+        .subtitle-text {
+          font-size: 28px;
+          fill: #7f8c8d;
+        }
+        .content-text {
+          font-family: Arial, sans-serif;
+          font-size: 24px;
+          fill: #34495e;
+        }
+        .bullet-point {
+          font-family: Arial, sans-serif;
+          font-size: 22px;
+          fill: #2c3e50;
+        }
+        .slide-number {
+          font-family: Arial, sans-serif;
+          font-size: 14px;
+          fill: #95a5a6;
+          text-anchor: end;
+        }
+        .background {
+          fill: #ffffff;
+        }
+      ]]>
+    </style>
+  </defs>
+  
+  <script type="text/javascript"><![CDATA[
+    var currentSlide = 0;
+    var slides = [];
+    
+    function initPresentation() {
+      var svg = document.querySelector('svg');
+      for (var i = 0; i < svg.childNodes.length; i++) {
+        var node = svg.childNodes[i];
+        if (node.nodeType === 1 && node.getAttribute('data-slide') === 'true') {
+          slides.push(node);
+        }
+      }
+      
+      if (slides.length > 0) {
+        slides[0].classList.add('active');
+      }
+      
+      document.addEventListener('keydown', function(e) {
+        switch(e.key) {
+          case 'ArrowRight':
+            nextSlide();
+            break;
+          case 'ArrowLeft':
+            previousSlide();
+            break;
+        }
+      });
+    }
+    
+    function nextSlide() {
+      if (currentSlide < slides.length - 1) {
+        slides[currentSlide].classList.remove('active');
+        currentSlide++;
+        slides[currentSlide].classList.add('active');
+        updateSlideNumber();
+      }
+    }
+    
+    function previousSlide() {
+      if (currentSlide > 0) {
+        slides[currentSlide].classList.remove('active');
+        currentSlide--;
+        slides[currentSlide].classList.add('active');
+        updateSlideNumber();
+      }
+    }
+    
+    function updateSlideNumber() {
+      var slideNumbers = document.querySelectorAll('[data-slide-number]');
+      for (var i = 0; i < slideNumbers.length; i++) {
+        var numElem = slideNumbers[i];
+        if (numElem.parentNode === slides[currentSlide]) {
+          // Update logic if needed
+        }
+      }
+    }
+    
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initPresentation);
+    } else {
+      initPresentation();
+    }
+  ]]></script>
+  
+  <rect width="100%" height="100%" class="background"/>
+  
+  {% for slide in slides %}
+  <g data-slide="true" class="slide" id="slide-{{ loop.index }}">
+    <rect width="{{ width|default(1024) }}" height="{{ height|default(768) }}" 
+          fill="{{ slide.background|default("#ffffff") }}" opacity="1"/>
+    
+    {% if slide.header_line %}
+    <rect x="0" y="0" width="{{ width|default(1024) }}" height="8" 
+          fill="{{ slide.header_color|default("#3498db") }}"/>
+    {% endif %}
+    
+    {% if slide.title %}
+    <text x="{{ width|default(1024)/2 }}" y="100" class="title-text" text-anchor="middle">
+      {{ slide.title }}
+    </text>
+    {% endif %}
+    
+    {% if existsIn(slide, "subtitle") %}
+    <text x="{{ width|default(1024)/2 }}" y="150" class="subtitle-text" text-anchor="middle">
+      {{ slide.subtitle }}
+    </text>
+    {% endif %}
+    
+    {% if slide.content %}
+      {% for content_item in slide.content %}
+        {% if content_item.type == "text" %}
+    <text x="100" y="{{ 200 + loop.index * 40 }}" class="content-text">
+      {{ content_item.text }}
+    </text>
+        {% else if content_item.type == "bullet" %}
+    <circle cx="80" cy="{{ 200 + loop.index * 35 - 15 }}" r="6" fill="#3498db"/>
+    <text x="100" y="{{ 200 + loop.index * 35 }}" class="bullet-point">
+      {{ content_item.text }}
+    </text>
+        {% else if content_item.type == "image" %}
+    <image x="{{ content_item.x|default(100) }}" 
+           y="{{ content_item.y|default(200) }}"
+           width="{{ content_item.width|default(400) }}"
+           height="{{ content_item.height|default(300) }}"
+           xlink:href="{{ content_item.src }}"/>
+        {% else if content_item.type == "code" %}
+    <rect x="100" y="{{ content_item.y|default(200) }}" 
+          width="{{ content_item.width|default(800) }}" 
+          height="{{ content_item.height|default(200) }}" 
+          fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+    <text x="120" y="{{ content_item.y|default(200) + 30 }}" 
+          font-family="Courier, monospace" font-size="16" fill="#2c3e50">
+      <tspan x="120" dy="25">{{ content_item.code|replace("\n", "</tspan><tspan x=\"120\" dy=\"25\">")|safe }}</tspan>
+    </text>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    
+    <text x="{{ width|default(1024) - 50 }}" 
+          y="{{ height|default(768) - 30 }}" 
+          class="slide-number" data-slide-number="true">
+      {{ loop.index }} / {{ slides|length }}
+    </text>
+  </g>
+  {% endfor %}
+  
+</svg>

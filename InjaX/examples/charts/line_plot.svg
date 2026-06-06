@@ -1,0 +1,77 @@
+<svg width="700" height="450"
+     xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(0, 400)">
+    <!-- axis orientation=bottom range=[60,640] ticks=6 -->
+  <g class="axis axis-bottom" transform="translate(0, 0)">
+    <line class="axis-line" x1="60" y1="0" x2="640" y2="0" stroke="currentColor" stroke-width="1"/>
+    <g class="tick" transform="translate(64.83, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >Jan</text>
+    </g>
+    <g class="tick" transform="translate(161.50, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >Feb</text>
+    </g>
+    <g class="tick" transform="translate(258.17, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >Mar</text>
+    </g>
+    <g class="tick" transform="translate(354.83, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >Apr</text>
+    </g>
+    <g class="tick" transform="translate(451.50, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >May</text>
+    </g>
+    <g class="tick" transform="translate(548.17, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >Jun</text>
+    </g>
+  </g>
+
+  </g>
+  <g transform="translate(60, 0)">
+    <!-- axis orientation=left range=[400,50] ticks=8 -->
+  <g class="axis axis-left" transform="translate(0, 0)">
+    <line class="axis-line" x1="0" y1="400" x2="0" y2="50" stroke="currentColor" stroke-width="1"/>
+    <g class="tick" transform="translate(0, 400)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >0</text>
+    </g>
+    <g class="tick" transform="translate(0, 353.33)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >20</text>
+    </g>
+    <g class="tick" transform="translate(0, 306.67)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >40</text>
+    </g>
+    <g class="tick" transform="translate(0, 260)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >60</text>
+    </g>
+    <g class="tick" transform="translate(0, 213.33)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >80</text>
+    </g>
+    <g class="tick" transform="translate(0, 166.67)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >100</text>
+    </g>
+    <g class="tick" transform="translate(0, 120.00)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >120</text>
+    </g>
+    <g class="tick" transform="translate(0, 73.33)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >140</text>
+    </g>
+  </g>
+
+  </g>
+  <path d="M 108.333 248.333 Q 156.667 248.333 205 232 C 221.111 232 293.611 194.667 301.667 194.667 C 317.778 194.667 390.278 178.333 398.333 178.333 C 414.444 178.333 486.944 143.333 495 143.333 C 511.111 143.333 583.611 108.333 591.667 108.333"
+        stroke="green" stroke-width="2" fill="none"/>
+  <path d="M 108.333 271.667 Q 156.667 271.667 205 264.667 C 221.111 264.667 293.611 248.333 301.667 248.333 C 317.778 248.333 390.278 236.667 398.333 236.667 C 414.444 236.667 486.944 225 495 225 C 511.111 225 583.611 213.333 591.667 213.333" 
+        stroke="red" stroke-width="2" fill="none"/>
+</svg>

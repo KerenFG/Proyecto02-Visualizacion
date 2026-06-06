@@ -1,0 +1,181 @@
+{
+  "store_name": "ModernMart",
+  "announcement_bar": {
+    "text": "Free shipping on orders over $50 | 30-day money-back guarantee",
+    "visible": true
+  },
+  "hero": {
+    "headline": "Find your style, set your pace",
+    "subheadline": "Curated products with the best quality and design on the market.",
+    "cta": { "text": "Shop Now", "href": "#shop" },
+    "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&h=600&fit=crop"
+  },
+  "sections": [
+    {
+      "id": "trust_badges",
+      "type": "benefits",
+      "items": [
+        { "icon": "truck", "title": "Express Shipping", "desc": "Receive in 24/48 hours" },
+        { "icon": "shield", "title": "Secure Payment", "desc": "End-to-end SSL encryption" },
+        { "icon": "rotate-ccw", "title": "Satisfaction Guarantee", "desc": "30 days for returns" }
+      ]
+    },
+    {
+      "id": "best_sellers",
+      "type": "product_grid",
+      "title": "Best Sellers",
+      "products": [
+        {
+          "id": "prod_01",
+          "name": "Premium Limited Edition Product",
+          "price": 49.99,
+          "old_price": 69.99,
+          "badge": "Sale",
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+          "description": "High-quality premium product with exclusive design",
+          "rating": 4.8,
+          "reviews": 124
+        },
+        {
+          "id": "prod_02",
+          "name": "Daily Essential Product",
+          "price": 25.00,
+          "old_price": null,
+          "badge": "New",
+          "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+          "description": "Perfect for everyday use",
+          "rating": 4.5,
+          "reviews": 89
+        },
+        {
+          "id": "prod_03",
+          "name": "Wireless Headphones",
+          "price": 89.99,
+          "old_price": 129.99,
+          "badge": "-31%",
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+          "description": "Noise-cancelling with 30h battery life",
+          "rating": 4.9,
+          "reviews": 312
+        },
+        {
+          "id": "prod_04",
+          "name": "Smart Watch Series 5",
+          "price": 199.99,
+          "old_price": 249.99,
+          "badge": "Trending",
+          "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+          "description": "Track your fitness and stay connected",
+          "rating": 4.7,
+          "reviews": 203
+        },
+        {
+          "id": "prod_05",
+          "name": "Minimalist Backpack",
+          "price": 59.99,
+          "old_price": null,
+          "badge": "Eco-friendly",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop",
+          "description": "Water-resistant recycled materials",
+          "rating": 4.6,
+          "reviews": 78
+        },
+        {
+          "id": "prod_06",
+          "name": "Ceramic Coffee Mug",
+          "price": 14.99,
+          "old_price": 19.99,
+          "badge": "Popular",
+          "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400&h=400&fit=crop",
+          "description": "Handcrafted with love",
+          "rating": 4.9,
+          "reviews": 456
+        },
+        {
+          "id": "prod_07",
+          "name": "Desk Lamp with Wireless Charger",
+          "price": 79.99,
+          "old_price": 99.99,
+          "badge": "Smart",
+          "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=400&fit=crop",
+          "description": "LED light with phone charging pad",
+          "rating": 4.4,
+          "reviews": 167
+        },
+        {
+          "id": "prod_08",
+          "name": "Premium Notebook Set",
+          "price": 19.99,
+          "old_price": null,
+          "badge": "Bestseller",
+          "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=400&h=400&fit=crop",
+          "description": "Set of 3 dot-grid journals",
+          "rating": 4.8,
+          "reviews": 234
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "reviews",
+      "title": "What our customers say",
+      "items": [
+        { 
+          "user": "Carlos M.", 
+          "stars": 5, 
+          "comment": "Excellent quality, arrived earlier than expected. I will definitely order again.",
+          "verified": true 
+        },
+        { 
+          "user": "Ana R.", 
+          "stars": 4, 
+          "comment": "Very good customer service, they resolved my doubts instantly.",
+          "verified": true 
+        },
+        { 
+          "user": "James W.", 
+          "stars": 5, 
+          "comment": "Best online shopping experience I've had. The product exceeded my expectations.",
+          "verified": true 
+        },
+        { 
+          "user": "Sarah K.", 
+          "stars": 5, 
+          "comment": "Fast shipping and great packaging. Will recommend to friends!",
+          "verified": true 
+        }
+      ]
+    },
+    {
+      "id": "featured_blog",
+      "type": "blog_posts",
+      "title": "Latest from our blog",
+      "items": [
+        {
+          "title": "10 Tips for Better Product Photography",
+          "date": "March 15, 2026",
+          "excerpt": "Learn how to showcase your products like a pro with these simple techniques.",
+          "link": "#"
+        },
+        {
+          "title": "Sustainable Shopping Guide",
+          "date": "March 10, 2026",
+          "excerpt": "How to make eco-friendly choices without breaking the bank.",
+          "link": "#"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "newsletter_title": "Join the club and get 10% OFF",
+    "accepted_payments": ["visa", "mastercard", "paypal", "apple-pay"],
+    "quick_links": [
+      { "name": "About Us", "href": "#" },
+      { "name": "Contact", "href": "#" },
+      { "name": "Privacy Policy", "href": "#" },
+      { "name": "Returns", "href": "#" },
+      { "name": "FAQs", "href": "#" }
+    ],
+    "social_media": ["facebook", "instagram", "twitter", "tiktok"]
+  }
+}

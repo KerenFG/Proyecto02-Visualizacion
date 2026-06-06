@@ -1,0 +1,134 @@
+width: 1024
+height: 768
+
+slides:
+  - title: "My Presentation"
+    subtitle: "A Beamer-style presentation with SVG"
+    background: "#f8f9fa"
+    header_line: true
+    header_color: "#e74c3c"
+    content:
+      - type: text
+        text: "Welcome to this interactive presentation"
+      - type: text
+        text: "Use the ← → arrow keys to navigate"
+
+  - title: "Features"
+    background: "#ffffff"
+    header_line: true
+    header_color: "#3498db"
+    content:
+      - type: bullet
+        text: "Keyboard navigation (← →)"
+      - type: bullet
+        text: "Smooth slide transitions"
+      - type: bullet
+        text: "Support for text, bullet points, and images"
+      - type: bullet
+        text: "Fully SVG-based"
+      - type: bullet
+        text: "Responsive design for any screen size"
+      - type: bullet
+        text: "Customizable themes and colors"
+
+  - title: "Code Example"
+    background: "#f0f0f0"
+    header_line: true
+    header_color: "#2ecc71"
+    content:
+      - type: code
+        y: 200
+        code: |
+          def hello_world():
+              print("Hello from SVG!")
+              
+          for i in range(5):
+              print(f"Navigating to slide {i}")
+              
+          # Python example with syntax highlighting
+          class Presentation:
+              def __init__(self, title):
+                  self.title = title
+                  self.slides = []
+              
+              def add_slide(self, content):
+                  self.slides.append(content)
+                  return self
+
+  - title: "Advanced Features"
+    background: "#f8f9fa"
+    header_line: true
+    header_color: "#e67e22"
+    content:
+      - type: text
+        text: "Take your presentations to the next level"
+      - type: bullet
+        text: "Embed images and diagrams directly in SVG"
+      - type: bullet
+        text: "Support for code blocks with syntax highlighting"
+      - type: bullet
+        text: "Custom JavaScript for interactive elements"
+      - type: bullet
+        text: "Export to PDF or HTML formats"
+      - type: bullet
+        text: "Compatible with all modern web browsers"
+
+  - title: "Use Cases"
+    background: "#ffffff"
+    header_line: true
+    header_color: "#1abc9c"
+    content:
+      - type: bullet
+        text: "Academic lectures and conference talks"
+      - type: bullet
+        text: "Technical workshops and training sessions"
+      - type: bullet
+        text: "Product demonstrations and pitch decks"
+      - type: bullet
+        text: "Documentation and API presentations"
+      - type: bullet
+        text: "Portfolio showcases and galleries"
+
+  - title: "Getting Started"
+    background: "#f0f0f0"
+    header_line: true
+    header_color: "#3498db"
+    content:
+      - type: text
+        text: "Simple setup process:"
+      - type: bullet
+        text: "Install InjaX and dependencies"
+      - type: bullet
+        text: "Create your YAML content file"
+      - type: bullet
+        text: "Design your SVG template"
+      - type: bullet
+        text: "Run injax input.yaml template.svg output.svg"
+      - type: bullet
+        text: "Open the resulting SVG in any browser"
+      - type: code
+        y: 520
+        width: 800
+        height: 120
+        code: |
+          # Quick start example
+          $ injax slides.yaml template.svg presentation.svg
+          $ open presentation.svg
+
+  - title: "Conclusion"
+    background: "#ffffff"
+    header_line: true
+    header_color: "#9b59b6"
+    content:
+      - type: bullet
+        text: "Lightweight and portable presentations"
+      - type: bullet
+        text: "No PowerPoint or Beamer required"
+      - type: bullet
+        text: "Easy to version control with Git"
+      - type: bullet
+        text: "Open source and freely customizable"
+      - type: bullet
+        text: "Perfect for developers and technical presenters"
+      - type: text
+        text: "Thank you for watching!"
