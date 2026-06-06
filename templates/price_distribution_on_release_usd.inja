@@ -5,11 +5,11 @@
 {% set height = 500 - margin.top  - margin.bottom %}
 
 {% set xScale = scaleLinear()
-      | domain([metadata.price_min, metadata.price_max])
+      | domain([price_min, price_max])
       | range(0, width) %}
 
 {% set yScale = scaleLinear()
-      | domain([0, metadata.max_count])
+      | domain([0, max_count])
       | range(height, 0)
       | nice(5) %}
 
@@ -61,7 +61,7 @@
     {% endfor %}
 
     {# Median dashed line #}
-    {% set mx = scale(xScale, metadata.median) %}
+    {% set mx = scale(xScale, median) %}
     <line class="median-line"
           x1="{{ mx }}" y1="0"
           x2="{{ mx }}" y2="{{ height }}"/>
@@ -71,7 +71,7 @@
           x="{{ mx + 8 }}"
           y="20"
           text-anchor="start">
-      Mediana: ${{ metadata.median }}
+      Mediana: ${{ median }}
     </text>
 
     {# X axis #}

@@ -71,20 +71,15 @@ max_count = int(counts.max())
 # --- Output JSON --------------------------------------------------------
 
 payload = {
-    "metadata": {
-        "total_models": len(df),
-        "rows_removed": rows_removed,
-        "outlier_threshold": OUTLIER_THRESHOLD,
-        "price_min": round(float(df["price_usd"].min()), 2),
-        "price_max": round(float(df["price_usd"].max()), 2),
-        "median": round(median, 2),
-        "bin_width": round(float(edges[1] - edges[0]), 2),
-        "max_count": max_count,
-        "annotation_x": round(median + 100, 2),
-        "annotation_y": 55,
-    },
     "data": bins,
-    "raw": df[["company", "model", "year", "price_usd"]].to_dict(orient="records"),
+    "total_models": int(len(df)),
+    "rows_removed": int(rows_removed),
+    "price_min": round(float(df["price_usd"].min()), 2),
+    "price_max": round(float(df["price_usd"].max()), 2),
+    "median": round(float(median), 2),
+    "bin_width": round(float(edges[1] - edges[0]), 2),
+    "max_count": int(max_count),
+    "annotation_x": round(float(median) + 100, 2),
 }
 
 os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
