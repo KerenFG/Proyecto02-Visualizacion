@@ -1,0 +1,133 @@
+{# Precio según RAM del Dispositivo — Boxplot manual (rect + line + circle) #}
+
+{% set margin = obj("top", 55, "right", 45, "bottom", 65, "left", 80) %}
+{% set width  = 760 - margin.left - margin.right %}
+{% set height = 500 - margin.top  - margin.bottom %}
+
+{% set rams = map(data, "ram") %}
+
+{% set xScale = scaleBand()
+      | domain(rams)
+      | range(0, width)
+      | padding(0.35) %}
+
+{% set yScale = scaleLinear()
+      | domain(0, price_max)
+      | range(height, 0)
+      | nice(5) %}
+
+<svg width="{{ width + margin.left + margin.right }}"
+     height="{{ height + margin.top + margin.bottom }}"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .tick-label  { font-family: sans-serif; font-size: 11px; fill: #555; }
+    .axis-line, .tick-line { stroke: #bbb; }
+    .chart-title { font-family: sans-serif; font-size: 15px; font-weight: bold; fill: #222; }
+    .axis-label  { font-family: sans-serif; font-size: 12px; fill: #555; }
+    .ram-label   { font-family: sans-serif; font-size: 11px; fill: #444; }
+    .stat-tip    { font-family: sans-serif; font-size: 10px; }
+  </style>
+
+  {# Title #}
+  <text class="chart-title"
+        x="{{ (width + margin.left + margin.right) / 2 }}"
+        y="30"
+        text-anchor="middle">
+    Precio según RAM del Dispositivo
+  </text>
+
+  <g transform="translate({{ margin.left }}, {{ margin.top }})">
+
+    {# Plot background #}
+    <rect x="0" y="0" width="{{ width }}" height="{{ height }}"
+          fill="#F7F7F7" rx="3"/>
+
+    {# Horizontal grid lines #}
+    <g opacity="0.55">
+      {{ call(axisLeft(yScale) | tickCount(6) | grid(true)) }}
+    </g>
+
+    {# ── Boxes ─────────────────────────────────────────────────────────── #}
+    {% for d in data %}
+      {% set bw   = bandwidth(xScale) %}
+      {% set bx   = scale(xScale, d.ram) %}
+      {% set cx   = bx + bw / 2 %}
+      {% set yq1  = scale(yScale, d.q1) %}
+      {% set yq2  = scale(yScale, d.q2) %}
+      {% set yq3  = scale(yScale, d.q3) %}
+      {% set ylw  = scale(yScale, d.lower_whisker) %}
+      {% set yuw  = scale(yScale, d.upper_whisker) %}
+
+      {# Whisker stems #}
+      <line x1="{{ cx }}" y1="{{ yq1 }}" x2="{{ cx }}" y2="{{ ylw }}"
+            stroke="#888" stroke-width="1.2"/>
+      <line x1="{{ cx }}" y1="{{ yq3 }}" x2="{{ cx }}" y2="{{ yuw }}"
+            stroke="#888" stroke-width="1.2"/>
+
+      {# Whisker caps #}
+      <line x1="{{ bx + bw * 0.25 }}" y1="{{ ylw }}"
+            x2="{{ bx + bw * 0.75 }}" y2="{{ ylw }}"
+            stroke="#888" stroke-width="1.8"/>
+      <line x1="{{ bx + bw * 0.25 }}" y1="{{ yuw }}"
+            x2="{{ bx + bw * 0.75 }}" y2="{{ yuw }}"
+            stroke="#888" stroke-width="1.8"/>
+
+      {# Box body (IQR) #}
+      <rect x="{{ bx }}" y="{{ yq3 }}"
+            width="{{ bw }}" height="{{ yq1 - yq3 }}"
+            fill="{{ d.color }}" fill-opacity="0.7"
+            stroke="#555" stroke-width="1" rx="2">
+        <title>{{ d.ram }} GB — n={{ d.count }} | Q1=${{ d.q1 }} | Med=${{ d.q2 }} | Q3=${{ d.q3 }}</title>
+      </rect>
+
+      {# Median line #}
+      <line x1="{{ bx }}" y1="{{ yq2 }}"
+            x2="{{ bx + bw }}" y2="{{ yq2 }}"
+            stroke="#222" stroke-width="2.2"/>
+
+      {# Outlier points #}
+      {% for o in d.outliers %}
+        <circle cx="{{ cx }}" cy="{{ scale(yScale, o) }}" r="3"
+                fill="{{ d.color }}" fill-opacity="0.45"
+                stroke="#666" stroke-width="0.8">
+          <title>${{ o }}</title>
+        </circle>
+      {% endfor %}
+
+      {# RAM label on X axis #}
+      <text class="ram-label"
+            x="{{ cx }}"
+            y="{{ height + 20 }}"
+            text-anchor="middle">
+        {{ d.ram }} GB
+      </text>
+
+    {% endfor %}
+
+    {# Y axis #}
+    <g>{{ call(axisLeft(yScale) | tickCount(6) | tickFormat("currency")) }}</g>
+
+    {# Y axis label #}
+    <text class="axis-label"
+          text-anchor="middle"
+          transform="rotate(-90)"
+          x="{{ 0 - height / 2 }}"
+          y="-62">
+      Precio (USD)
+    </text>
+
+    {# X axis base line #}
+    <line x1="0" y1="{{ height }}" x2="{{ width }}" y2="{{ height }}"
+          stroke="#bbb" stroke-width="1"/>
+
+    {# X axis label #}
+    <text class="axis-label"
+          text-anchor="middle"
+          x="{{ width / 2 }}"
+          y="{{ height + 50 }}">
+      RAM (GB)
+    </text>
+
+  </g>
+</svg>
