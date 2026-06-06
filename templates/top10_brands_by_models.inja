@@ -1,0 +1,89 @@
+{# Top 10 Marcas por Número de Modelos — Barras horizontales #}
+
+{% set margin = obj("top", 50, "right", 60, "bottom", 55, "left", 100) %}
+{% set width  = 720 - margin.left - margin.right %}
+{% set height = 460 - margin.top  - margin.bottom %}
+
+{% set brands = map(data, "brand") %}
+
+{% set xScale = scaleLinear()
+      | domain(0, count_max)
+      | range(0, width) %}
+
+{% set yScale = scaleBand()
+      | domain(brands)
+      | range(0, height)
+      | padding(0.25) %}
+
+<svg width="{{ width + margin.left + margin.right }}"
+     height="{{ height + margin.top + margin.bottom }}"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .tick-label  { font-family: sans-serif; font-size: 11px; fill: #555; }
+    .axis-line, .tick-line { stroke: #bbb; }
+    .chart-title { font-family: sans-serif; font-size: 15px; font-weight: bold; fill: #222; }
+    .axis-label  { font-family: sans-serif; font-size: 12px; fill: #555; }
+    .bar-label   { font-family: sans-serif; font-size: 11px; fill: #333; }
+  </style>
+
+  {# Title #}
+  <text class="chart-title"
+        x="{{ (width + margin.left + margin.right) / 2 }}"
+        y="30"
+        text-anchor="middle">
+    Top 10 Marcas por Número de Modelos
+  </text>
+
+  <g transform="translate({{ margin.left }}, {{ margin.top }})">
+
+    {# Plot background #}
+    <rect x="0" y="0" width="{{ width }}" height="{{ height }}"
+          fill="#F7F7F7" rx="3"/>
+
+    {# Vertical grid lines #}
+    <g opacity="0.5">
+      {{ call(axisBottom(xScale) | tickCount(6) | grid(true)) }}
+    </g>
+
+    {# Bars + count labels #}
+    {% for d in data %}
+      {% set bw = scale(xScale, d.count) %}
+      {% set by = scale(yScale, d.brand) %}
+      {% set bh = bandwidth(yScale) %}
+
+      <rect x="0"
+            y="{{ by }}"
+            width="{{ bw }}"
+            height="{{ bh }}"
+            fill="{{ d.color }}"
+            rx="2">
+        <title>{{ d.brand }}: {{ d.count }} modelos</title>
+      </rect>
+
+      <text class="bar-label"
+            x="{{ bw + 5 }}"
+            y="{{ by + bh / 2 + 4 }}"
+            text-anchor="start">
+        {{ d.count }}
+      </text>
+    {% endfor %}
+
+    {# X axis #}
+    <g transform="translate(0, {{ height }})">
+      {{ call(axisBottom(xScale) | tickCount(6)) }}
+    </g>
+
+    {# Y axis (brand names) #}
+    <g>{{ call(axisLeft(yScale) | tickValues(brands)) }}</g>
+
+    {# X axis label #}
+    <text class="axis-label"
+          text-anchor="middle"
+          x="{{ width / 2 }}"
+          y="{{ height + 45 }}">
+      Número de modelos
+    </text>
+
+  </g>
+</svg>

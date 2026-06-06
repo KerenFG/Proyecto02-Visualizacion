@@ -1,0 +1,57 @@
+{
+  "data": [
+    {
+      "brand": "Huawei",
+      "count": 42,
+      "color": "#90CAF9"
+    },
+    {
+      "brand": "OnePlus",
+      "count": 53,
+      "color": "#7DBBF0"
+    },
+    {
+      "brand": "Infinix",
+      "count": 55,
+      "color": "#7AB8EF"
+    },
+    {
+      "brand": "Motorola",
+      "count": 62,
+      "color": "#6EAEE9"
+    },
+    {
+      "brand": "Realme",
+      "count": 68,
+      "color": "#64A6E5"
+    },
+    {
+      "brand": "Vivo",
+      "count": 86,
+      "color": "#468DD7"
+    },
+    {
+      "brand": "Samsung",
+      "count": 88,
+      "color": "#428AD5"
+    },
+    {
+      "brand": "Honor",
+      "count": 91,
+      "color": "#3D86D3"
+    },
+    {
+      "brand": "Apple",
+      "count": 97,
+      "color": "#337ECE"
+    },
+    {
+      "brand": "Oppo",
+      "count": 115,
+      "color": "#1565C0"
+    }
+  ],
+  "total_brands": 10,
+  "count_min": 42,
+  "count_max": 115
+}
