@@ -5,11 +5,11 @@
 {% set height = 500 - margin.top  - margin.bottom %}
 
 {% set xScale = scaleLinear()
-      | domain([price_min, price_max])
+      | domain(price_min, price_max)
       | range(0, width) %}
 
 {% set yScale = scaleLinear()
-      | domain([0, max_count])
+      | domain(0, max_count)
       | range(height, 0)
       | nice(5) %}
 
