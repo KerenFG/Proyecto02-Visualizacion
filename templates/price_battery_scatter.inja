@@ -1,0 +1,106 @@
+{# Precio vs. Batería por Marca — scatter multidimensional #}
+{# Patrón: scatter_plot.inja — scaleLinear x2 + scaleOrdinal + circles #}
+
+{% set margin = obj("top", 45, "right", 155, "bottom", 55, "left", 75) %}
+{% set width  = 860 - margin.left - margin.right %}
+{% set height = 560 - margin.top  - margin.bottom %}
+
+<svg width="{{ width + margin.left + margin.right }}"
+     height="{{ height + margin.top + margin.bottom }}"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .tick-label  { font-family: sans-serif; font-size: 11px; fill: #555; }
+    .axis-line, .tick-line { stroke: #bbb; }
+    .chart-title { font-family: sans-serif; font-size: 15px; font-weight: bold; fill: #222; }
+    .axis-label  { font-family: sans-serif; font-size: 12px; fill: #555; }
+    .legend-head { font-family: sans-serif; font-size: 11px; font-weight: bold; fill: #333; }
+    .legend-text { font-family: sans-serif; font-size: 11px; fill: #444; }
+  </style>
+
+  {# Title — fuera del grupo de margen #}
+  <text class="chart-title"
+        x="{{ (width + margin.left + margin.right) / 2 }}"
+        y="28"
+        text-anchor="middle">
+    Precio vs. Batería por Marca (tamaño = pantalla)
+  </text>
+
+  <g transform="translate({{ margin.left }}, {{ margin.top }})">
+
+    {# Plot background — igual que scatter_plot.inja #}
+    <rect x="0" y="0" width="{{ width }}" height="{{ height }}" fill="#EBEBEB"/>
+
+    {# X axis — Batería (mAh) #}
+    {% set x = scaleLinear()
+          | domain(bat_domain_min, bat_domain_max)
+          | range(0, width) %}
+    <g transform="translate(0, {{ height }})">
+      {{ call(axisBottom(x) | tickCount(6)) }}
+    </g>
+
+    {# Y axis — Precio (USD) #}
+    {% set y = scaleLinear()
+          | domain(0, price_domain_max)
+          | range(height, 0)
+          | nice(5) %}
+    {{ call(axisLeft(y) | tickCount(6) | tickFormat("currency")) }}
+
+    {# X axis label #}
+    <text class="axis-label"
+          text-anchor="middle"
+          x="{{ width / 2 }}"
+          y="{{ height + margin.bottom - 8 }}">
+      Batería (mAh)
+    </text>
+
+    {# Y axis label #}
+    <text class="axis-label"
+          text-anchor="middle"
+          transform="rotate(-90)"
+          x="{{ 0 - height / 2 }}"
+          y="{{ 0 - margin.left + 18 }}">
+      Precio (USD)
+    </text>
+
+    {# Scatter points — color y radius pre-computados en Python #}
+    <g>
+    {% for d in data %}
+      <circle cx="{{ scale(x, d.battery_mah) }}"
+              cy="{{ scale(y, d.price_usd) }}"
+              r="{{ d.radius }}"
+              fill="{{ d.color }}"
+              fill-opacity="0.65"
+              stroke="white"
+              stroke-width="0.5">
+        <title>{{ d.brand }} - {{ d.model }}
+Bateria: {{ d.battery_mah }} mAh
+Precio: ${{ d.price_usd }}
+Pantalla: {{ d.screen_in }} pulg.
+RAM: {{ d.ram_gb }} GB</title>
+      </circle>
+    {% endfor %}
+    </g>
+
+    {# Legend — Marca (color) #}
+    {% set lx = width + 12 %}
+    <text class="legend-head" x="{{ lx }}" y="14">Marca</text>
+    {% for item in legend %}
+      {% set ly = 32 + loop.index * 22 %}
+      <circle cx="{{ lx + 7 }}" cy="{{ ly }}" r="6"
+              fill="{{ item.color }}" fill-opacity="0.85"/>
+      <text class="legend-text"
+            x="{{ lx + 18 }}" y="{{ ly + 4 }}">{{ item.brand }}</text>
+    {% endfor %}
+
+    {# Legend — Pantalla (tamaño) #}
+    <text class="legend-head" x="{{ lx }}" y="{{ 32 + 8 * 22 }}">Pantalla</text>
+    <circle cx="{{ lx + 4 }}"  cy="{{ 32 + 9 * 22 }}" r="2"  fill="#888"/>
+    <text class="legend-text"  x="{{ lx + 18 }}" y="{{ 32 + 9 * 22 + 4 }}">pequeña</text>
+    <circle cx="{{ lx + 7 }}"  cy="{{ 32 + 10 * 22 }}" r="5" fill="#888"/>
+    <text class="legend-text"  x="{{ lx + 18 }}" y="{{ 32 + 10 * 22 + 4 }}">mediana</text>
+    <circle cx="{{ lx + 8 }}"  cy="{{ 32 + 11 * 22 }}" r="8" fill="#888"/>
+    <text class="legend-text"  x="{{ lx + 20 }}" y="{{ 32 + 11 * 22 + 4 }}">grande</text>
+
+  </g>
+</svg>

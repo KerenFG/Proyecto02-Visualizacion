@@ -1,0 +1,5483 @@
+{
+  "data": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab E 8.0 16GB",
+      "battery_mah": 5000,
+      "price_usd": 99.0,
+      "screen_in": 8.0,
+      "ram_gb": 1,
+      "color": "#984EA3",
+      "radius": 3.88
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad X8a Kids Edition",
+      "battery_mah": 5100,
+      "price_usd": 129.0,
+      "screen_in": 9.7,
+      "ram_gb": 3,
+      "color": "#4DAF4A",
+      "radius": 4.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab E 10.1 16GB",
+      "battery_mah": 5000,
+      "price_usd": 129.0,
+      "screen_in": 10.1,
+      "ram_gb": 1,
+      "color": "#984EA3",
+      "radius": 5.19
+    },
+    {
+      "brand": "Oppo",
+      "model": "A49 5G 128GB",
+      "battery_mah": 4000,
+      "price_usd": 129.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy J4 16GB",
+      "battery_mah": 3000,
+      "price_usd": 129.0,
+      "screen_in": 5.5,
+      "ram_gb": 2,
+      "color": "#984EA3",
+      "radius": 2.31
+    },
+    {
+      "brand": "Realme",
+      "model": "C61 128GB",
+      "battery_mah": 5000,
+      "price_usd": 130.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#A65628",
+      "radius": 2.94
+    },
+    {
+      "brand": "Oppo",
+      "model": "A50 5G 128GB",
+      "battery_mah": 4000,
+      "price_usd": 139.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Vivo",
+      "model": "X3S 16GB",
+      "battery_mah": 2000,
+      "price_usd": 139.0,
+      "screen_in": 5.0,
+      "ram_gb": 1,
+      "color": "#FF7F00",
+      "radius": 2.0
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y81 32GB",
+      "battery_mah": 3260,
+      "price_usd": 149.0,
+      "screen_in": 6.2,
+      "ram_gb": 3,
+      "color": "#FF7F00",
+      "radius": 2.76
+    },
+    {
+      "brand": "Oppo",
+      "model": "A51 5G 128GB",
+      "battery_mah": 4000,
+      "price_usd": 149.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab A7 Lite 32GB",
+      "battery_mah": 5100,
+      "price_usd": 149.0,
+      "screen_in": 8.7,
+      "ram_gb": 3,
+      "color": "#984EA3",
+      "radius": 4.31
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 8",
+      "battery_mah": 5000,
+      "price_usd": 149.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#4DAF4A",
+      "radius": 2.95
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y11 32GB",
+      "battery_mah": 5000,
+      "price_usd": 149.0,
+      "screen_in": 6.3,
+      "ram_gb": 3,
+      "color": "#FF7F00",
+      "radius": 2.84
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad X8a",
+      "battery_mah": 5000,
+      "price_usd": 149.0,
+      "screen_in": 9.7,
+      "ram_gb": 4,
+      "color": "#4DAF4A",
+      "radius": 4.94
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 9",
+      "battery_mah": 5000,
+      "price_usd": 149.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#4DAF4A",
+      "radius": 2.95
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad X8 Lite",
+      "battery_mah": 5000,
+      "price_usd": 149.0,
+      "screen_in": 9.7,
+      "ram_gb": 3,
+      "color": "#4DAF4A",
+      "radius": 4.94
+    },
+    {
+      "brand": "Realme",
+      "model": "C63 128GB",
+      "battery_mah": 5000,
+      "price_usd": 150.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad X6",
+      "battery_mah": 5100,
+      "price_usd": 159.0,
+      "screen_in": 9.7,
+      "ram_gb": 3,
+      "color": "#4DAF4A",
+      "radius": 4.94
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y12s 64GB",
+      "battery_mah": 5000,
+      "price_usd": 159.0,
+      "screen_in": 6.5,
+      "ram_gb": 3,
+      "color": "#FF7F00",
+      "radius": 2.94
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 7",
+      "battery_mah": 5200,
+      "price_usd": 159.0,
+      "screen_in": 6.7,
+      "ram_gb": 4,
+      "color": "#4DAF4A",
+      "radius": 3.09
+    },
+    {
+      "brand": "Realme",
+      "model": "Narzo N63 128GB",
+      "battery_mah": 5000,
+      "price_usd": 160.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 2.94
+    },
+    {
+      "brand": "Realme",
+      "model": "C75 128GB",
+      "battery_mah": 5000,
+      "price_usd": 160.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "C65 128GB",
+      "battery_mah": 5000,
+      "price_usd": 160.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad Mini 32GB",
+      "battery_mah": 6400,
+      "price_usd": 160.0,
+      "screen_in": 8.7,
+      "ram_gb": 3,
+      "color": "#A65628",
+      "radius": 4.31
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy J6+ 64GB",
+      "battery_mah": 3300,
+      "price_usd": 169.0,
+      "screen_in": 6.0,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 2.62
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y30 64GB",
+      "battery_mah": 5000,
+      "price_usd": 169.0,
+      "screen_in": 6.5,
+      "ram_gb": 3,
+      "color": "#FF7F00",
+      "radius": 2.92
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y11 64GB",
+      "battery_mah": 5000,
+      "price_usd": 169.0,
+      "screen_in": 6.3,
+      "ram_gb": 3,
+      "color": "#FF7F00",
+      "radius": 2.84
+    },
+    {
+      "brand": "Oppo",
+      "model": "A52 5G 128GB",
+      "battery_mah": 4000,
+      "price_usd": 169.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Realme",
+      "model": "Note 50 128GB",
+      "battery_mah": 5000,
+      "price_usd": 170.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 2.94
+    },
+    {
+      "brand": "Realme",
+      "model": "C67 128GB",
+      "battery_mah": 5000,
+      "price_usd": 170.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "C55 128GB",
+      "battery_mah": 5000,
+      "price_usd": 170.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 3.07
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y53s 64GB",
+      "battery_mah": 5000,
+      "price_usd": 179.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.99
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y21 64GB",
+      "battery_mah": 5000,
+      "price_usd": 179.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#FF7F00",
+      "radius": 2.94
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 6",
+      "battery_mah": 5000,
+      "price_usd": 179.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 2.95
+    },
+    {
+      "brand": "Oppo",
+      "model": "A53 5G 128GB",
+      "battery_mah": 4040,
+      "price_usd": 179.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab A9 64GB",
+      "battery_mah": 5100,
+      "price_usd": 179.0,
+      "screen_in": 8.7,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 4.31
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y33s 64GB",
+      "battery_mah": 5000,
+      "price_usd": 179.0,
+      "screen_in": 6.6,
+      "ram_gb": 4,
+      "color": "#FF7F00",
+      "radius": 2.99
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y12s 128GB",
+      "battery_mah": 5000,
+      "price_usd": 179.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#FF7F00",
+      "radius": 2.94
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y66 32GB",
+      "battery_mah": 3000,
+      "price_usd": 179.0,
+      "screen_in": 5.5,
+      "ram_gb": 3,
+      "color": "#FF7F00",
+      "radius": 2.31
+    },
+    {
+      "brand": "Vivo",
+      "model": "V3 Max 32GB",
+      "battery_mah": 3000,
+      "price_usd": 179.0,
+      "screen_in": 5.5,
+      "ram_gb": 4,
+      "color": "#FF7F00",
+      "radius": 2.31
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy J7 Pro 64GB",
+      "battery_mah": 3600,
+      "price_usd": 179.0,
+      "screen_in": 5.5,
+      "ram_gb": 3,
+      "color": "#984EA3",
+      "radius": 2.31
+    },
+    {
+      "brand": "Realme",
+      "model": "C75 256GB",
+      "battery_mah": 5000,
+      "price_usd": 180.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "Narzo N61 128GB",
+      "battery_mah": 5000,
+      "price_usd": 180.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 2.94
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad Mini 64GB",
+      "battery_mah": 6400,
+      "price_usd": 180.0,
+      "screen_in": 8.7,
+      "ram_gb": 4,
+      "color": "#A65628",
+      "radius": 4.31
+    },
+    {
+      "brand": "Realme",
+      "model": "C65 256GB",
+      "battery_mah": 5000,
+      "price_usd": 180.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad X8 Pro",
+      "battery_mah": 5100,
+      "price_usd": 189.0,
+      "screen_in": 10.1,
+      "ram_gb": 4,
+      "color": "#4DAF4A",
+      "radius": 5.19
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 8T",
+      "battery_mah": 5200,
+      "price_usd": 189.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.09
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 9T",
+      "battery_mah": 5200,
+      "price_usd": 189.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.09
+    },
+    {
+      "brand": "Oppo",
+      "model": "A55 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 189.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad X8",
+      "battery_mah": 5100,
+      "price_usd": 189.0,
+      "screen_in": 10.1,
+      "ram_gb": 4,
+      "color": "#4DAF4A",
+      "radius": 5.19
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad 2 Lite 64GB",
+      "battery_mah": 7100,
+      "price_usd": 190.0,
+      "screen_in": 10.4,
+      "ram_gb": 4,
+      "color": "#A65628",
+      "radius": 5.38
+    },
+    {
+      "brand": "Realme",
+      "model": "C67 256GB",
+      "battery_mah": 5000,
+      "price_usd": 190.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "C55 256GB",
+      "battery_mah": 5000,
+      "price_usd": 190.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.07
+    },
+    {
+      "brand": "Oppo",
+      "model": "A40 128GB",
+      "battery_mah": 5100,
+      "price_usd": 199.0,
+      "screen_in": 6.7,
+      "ram_gb": 4,
+      "color": "#E41A1C",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "K10x 128GB",
+      "battery_mah": 5000,
+      "price_usd": 199.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 2.99
+    },
+    {
+      "brand": "Oppo",
+      "model": "A56 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 199.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy A04 64GB",
+      "battery_mah": 5000,
+      "price_usd": 199.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 2.94
+    },
+    {
+      "brand": "Oppo",
+      "model": "K9x 128GB",
+      "battery_mah": 5000,
+      "price_usd": 199.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy M04 64GB",
+      "battery_mah": 5000,
+      "price_usd": 199.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 2.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab A8 64GB",
+      "battery_mah": 7040,
+      "price_usd": 199.0,
+      "screen_in": 10.5,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 5.44
+    },
+    {
+      "brand": "Oppo",
+      "model": "K11x 128GB",
+      "battery_mah": 5000,
+      "price_usd": 199.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.07
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy J8 64GB",
+      "battery_mah": 3500,
+      "price_usd": 199.0,
+      "screen_in": 6.0,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 2.62
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y21 128GB",
+      "battery_mah": 5000,
+      "price_usd": 199.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#FF7F00",
+      "radius": 2.94
+    },
+    {
+      "brand": "Oppo",
+      "model": "K7x 128GB",
+      "battery_mah": 5000,
+      "price_usd": 199.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 7T",
+      "battery_mah": 5200,
+      "price_usd": 199.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.09
+    },
+    {
+      "brand": "Oppo",
+      "model": "A59 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 199.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y30 128GB",
+      "battery_mah": 5000,
+      "price_usd": 199.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#FF7F00",
+      "radius": 2.92
+    },
+    {
+      "brand": "Vivo",
+      "model": "X5Max 16GB",
+      "battery_mah": 2300,
+      "price_usd": 199.0,
+      "screen_in": 5.5,
+      "ram_gb": 2,
+      "color": "#FF7F00",
+      "radius": 2.31
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad 6",
+      "battery_mah": 5100,
+      "price_usd": 199.0,
+      "screen_in": 10.1,
+      "ram_gb": 4,
+      "color": "#4DAF4A",
+      "radius": 5.19
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y95 64GB",
+      "battery_mah": 4030,
+      "price_usd": 199.0,
+      "screen_in": 6.2,
+      "ram_gb": 4,
+      "color": "#FF7F00",
+      "radius": 2.76
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad 64GB",
+      "battery_mah": 7100,
+      "price_usd": 200.0,
+      "screen_in": 10.4,
+      "ram_gb": 4,
+      "color": "#A65628",
+      "radius": 5.38
+    },
+    {
+      "brand": "Realme",
+      "model": "P1 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 200.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad Slim 64GB",
+      "battery_mah": 7100,
+      "price_usd": 200.0,
+      "screen_in": 10.4,
+      "ram_gb": 4,
+      "color": "#A65628",
+      "radius": 5.38
+    },
+    {
+      "brand": "Realme",
+      "model": "TechLife Pad Neo 64GB",
+      "battery_mah": 7200,
+      "price_usd": 210.0,
+      "screen_in": 10.5,
+      "ram_gb": 4,
+      "color": "#A65628",
+      "radius": 5.44
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad 2 Lite 128GB",
+      "battery_mah": 7100,
+      "price_usd": 210.0,
+      "screen_in": 10.4,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 5.38
+    },
+    {
+      "brand": "Realme",
+      "model": "Note 60x 128GB",
+      "battery_mah": 5200,
+      "price_usd": 210.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "Narzo N65 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 210.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Oppo",
+      "model": "A57 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 219.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 5T",
+      "battery_mah": 5000,
+      "price_usd": 219.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 2.94
+    },
+    {
+      "brand": "Oppo",
+      "model": "A54 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 219.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Vivo",
+      "model": "V9 64GB",
+      "battery_mah": 3260,
+      "price_usd": 219.0,
+      "screen_in": 6.3,
+      "ram_gb": 4,
+      "color": "#FF7F00",
+      "radius": 2.81
+    },
+    {
+      "brand": "Honor",
+      "model": "9X Lite",
+      "battery_mah": 3750,
+      "price_usd": 219.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#4DAF4A",
+      "radius": 2.94
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad Slim 128GB",
+      "battery_mah": 7100,
+      "price_usd": 220.0,
+      "screen_in": 10.4,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 5.38
+    },
+    {
+      "brand": "Realme",
+      "model": "P1 5G 256GB",
+      "battery_mah": 5000,
+      "price_usd": 220.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "Note 60 128GB",
+      "battery_mah": 5200,
+      "price_usd": 220.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "13 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 220.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad 7",
+      "battery_mah": 5100,
+      "price_usd": 229.0,
+      "screen_in": 10.1,
+      "ram_gb": 4,
+      "color": "#4DAF4A",
+      "radius": 5.19
+    },
+    {
+      "brand": "Oppo",
+      "model": "K10x 256GB",
+      "battery_mah": 5000,
+      "price_usd": 229.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.99
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab A9+ 128GB",
+      "battery_mah": 7040,
+      "price_usd": 229.0,
+      "screen_in": 11.0,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 5.75
+    },
+    {
+      "brand": "Honor",
+      "model": "10X Lite",
+      "battery_mah": 5000,
+      "price_usd": 229.0,
+      "screen_in": 6.7,
+      "ram_gb": 4,
+      "color": "#4DAF4A",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "A40 256GB",
+      "battery_mah": 5100,
+      "price_usd": 229.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "A59 5G 256GB",
+      "battery_mah": 5000,
+      "price_usd": 229.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Oppo",
+      "model": "K9x 256GB",
+      "battery_mah": 5000,
+      "price_usd": 229.0,
+      "screen_in": 6.5,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Oppo",
+      "model": "K11x 256GB",
+      "battery_mah": 5000,
+      "price_usd": 229.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.07
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y53s 128GB",
+      "battery_mah": 5000,
+      "price_usd": 229.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.99
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 6T",
+      "battery_mah": 5000,
+      "price_usd": 229.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.09
+    },
+    {
+      "brand": "Realme",
+      "model": "Narzo 70 5G 128GB",
+      "battery_mah": 5200,
+      "price_usd": 230.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "TechLife Pad Neo 128GB",
+      "battery_mah": 7200,
+      "price_usd": 230.0,
+      "screen_in": 10.5,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 5.44
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad 128GB",
+      "battery_mah": 7100,
+      "price_usd": 230.0,
+      "screen_in": 10.4,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 5.38
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y33s 128GB",
+      "battery_mah": 5000,
+      "price_usd": 239.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.99
+    },
+    {
+      "brand": "Realme",
+      "model": "13 5G 256GB",
+      "battery_mah": 5000,
+      "price_usd": 240.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "Narzo 70 Turbo 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 240.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "Note 60 256GB",
+      "battery_mah": 5200,
+      "price_usd": 240.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy F14 128GB",
+      "battery_mah": 6000,
+      "price_usd": 249.0,
+      "screen_in": 6.6,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Oppo",
+      "model": "K10 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 249.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.99
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy M14 128GB",
+      "battery_mah": 6000,
+      "price_usd": 249.0,
+      "screen_in": 6.6,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno3 5G 128GB",
+      "battery_mah": 4025,
+      "price_usd": 249.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.88
+    },
+    {
+      "brand": "Oppo",
+      "model": "A58 5G 256GB",
+      "battery_mah": 5000,
+      "price_usd": 249.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy M04 128GB",
+      "battery_mah": 5000,
+      "price_usd": 249.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 2.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy A04 128GB",
+      "battery_mah": 5000,
+      "price_usd": 249.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 2.94
+    },
+    {
+      "brand": "Honor",
+      "model": "X50i",
+      "battery_mah": 4500,
+      "price_usd": 249.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.06
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy A14 128GB",
+      "battery_mah": 5000,
+      "price_usd": 249.0,
+      "screen_in": 6.6,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy C5 32GB",
+      "battery_mah": 2600,
+      "price_usd": 249.0,
+      "screen_in": 5.2,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 2.12
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Xcover 5 64GB",
+      "battery_mah": 3000,
+      "price_usd": 249.0,
+      "screen_in": 5.3,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 2.19
+    },
+    {
+      "brand": "Vivo",
+      "model": "Z3 64GB",
+      "battery_mah": 3315,
+      "price_usd": 249.0,
+      "screen_in": 6.3,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.81
+    },
+    {
+      "brand": "Vivo",
+      "model": "Z1 Pro 64GB",
+      "battery_mah": 4500,
+      "price_usd": 249.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#FF7F00",
+      "radius": 2.96
+    },
+    {
+      "brand": "Vivo",
+      "model": "S1 Pro 128GB",
+      "battery_mah": 4500,
+      "price_usd": 249.0,
+      "screen_in": 6.4,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.86
+    },
+    {
+      "brand": "Vivo",
+      "model": "V5 Plus 64GB",
+      "battery_mah": 3055,
+      "price_usd": 249.0,
+      "screen_in": 5.5,
+      "ram_gb": 4,
+      "color": "#FF7F00",
+      "radius": 2.31
+    },
+    {
+      "brand": "Honor",
+      "model": "X60i",
+      "battery_mah": 4500,
+      "price_usd": 249.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.06
+    },
+    {
+      "brand": "Realme",
+      "model": "13+ 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 250.0,
+      "screen_in": 6.5,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 2.94
+    },
+    {
+      "brand": "Realme",
+      "model": "P1 Speed 5G 128GB",
+      "battery_mah": 5100,
+      "price_usd": 250.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "K11 128GB",
+      "battery_mah": 5000,
+      "price_usd": 259.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Realme",
+      "model": "Narzo 70 Turbo 5G 256GB",
+      "battery_mah": 5000,
+      "price_usd": 260.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Vivo",
+      "model": "S1 Pro 256GB",
+      "battery_mah": 4500,
+      "price_usd": 269.0,
+      "screen_in": 6.4,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.86
+    },
+    {
+      "brand": "Vivo",
+      "model": "T1 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 269.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.99
+    },
+    {
+      "brand": "Realme",
+      "model": "P1 Speed 5G 256GB",
+      "battery_mah": 5100,
+      "price_usd": 270.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#A65628",
+      "radius": 3.06
+    },
+    {
+      "brand": "Realme",
+      "model": "13+ 5G 256GB",
+      "battery_mah": 5000,
+      "price_usd": 270.0,
+      "screen_in": 6.5,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 2.94
+    },
+    {
+      "brand": "Realme",
+      "model": "14x 5G 128GB",
+      "battery_mah": 5500,
+      "price_usd": 270.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "P1 Pro 5G 128GB",
+      "battery_mah": 5200,
+      "price_usd": 270.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "K7 5G 128GB",
+      "battery_mah": 4025,
+      "price_usd": 279.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.88
+    },
+    {
+      "brand": "Vivo",
+      "model": "Pad Air 128GB",
+      "battery_mah": 8040,
+      "price_usd": 279.0,
+      "screen_in": 10.4,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 5.38
+    },
+    {
+      "brand": "Oppo",
+      "model": "K9 5G 128GB",
+      "battery_mah": 4300,
+      "price_usd": 279.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.89
+    },
+    {
+      "brand": "Honor",
+      "model": "X40i",
+      "battery_mah": 4000,
+      "price_usd": 279.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "K10 5G 256GB",
+      "battery_mah": 5000,
+      "price_usd": 279.0,
+      "screen_in": 6.6,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.99
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad 2 128GB",
+      "battery_mah": 8360,
+      "price_usd": 280.0,
+      "screen_in": 11.5,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 6.06
+    },
+    {
+      "brand": "Realme",
+      "model": "14x 5G 256GB",
+      "battery_mah": 5500,
+      "price_usd": 290.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "P1 Pro 5G 256GB",
+      "battery_mah": 5200,
+      "price_usd": 290.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#A65628",
+      "radius": 3.06
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy M34 128GB",
+      "battery_mah": 6000,
+      "price_usd": 299.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 2.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy M14 256GB",
+      "battery_mah": 6000,
+      "price_usd": 299.0,
+      "screen_in": 6.6,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno4 5G 128GB",
+      "battery_mah": 4000,
+      "price_usd": 299.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.89
+    },
+    {
+      "brand": "Vivo",
+      "model": "Z1 Pro 128GB",
+      "battery_mah": 4500,
+      "price_usd": 299.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.96
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno3 5G 256GB",
+      "battery_mah": 4025,
+      "price_usd": 299.0,
+      "screen_in": 6.4,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.88
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy F34 128GB",
+      "battery_mah": 6000,
+      "price_usd": 299.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 2.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy F14 256GB",
+      "battery_mah": 6000,
+      "price_usd": 299.0,
+      "screen_in": 6.6,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy C7 Pro 64GB",
+      "battery_mah": 3300,
+      "price_usd": 299.0,
+      "screen_in": 5.7,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 2.44
+    },
+    {
+      "brand": "Vivo",
+      "model": "X21 64GB",
+      "battery_mah": 3200,
+      "price_usd": 299.0,
+      "screen_in": 6.3,
+      "ram_gb": 4,
+      "color": "#FF7F00",
+      "radius": 2.8
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy A24 128GB",
+      "battery_mah": 5000,
+      "price_usd": 299.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 2.94
+    },
+    {
+      "brand": "Oppo",
+      "model": "K9 Pro 5G 128GB",
+      "battery_mah": 4500,
+      "price_usd": 299.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.89
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad X9",
+      "battery_mah": 7250,
+      "price_usd": 299.0,
+      "screen_in": 11.5,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 6.06
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y100 5G 128GB",
+      "battery_mah": 4500,
+      "price_usd": 299.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.86
+    },
+    {
+      "brand": "Vivo",
+      "model": "X9 Plus 128GB",
+      "battery_mah": 4000,
+      "price_usd": 299.0,
+      "screen_in": 5.9,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.55
+    },
+    {
+      "brand": "Vivo",
+      "model": "V15 128GB",
+      "battery_mah": 4000,
+      "price_usd": 299.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.96
+    },
+    {
+      "brand": "Honor",
+      "model": "X60",
+      "battery_mah": 5800,
+      "price_usd": 299.0,
+      "screen_in": 6.8,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.11
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad 8",
+      "battery_mah": 7250,
+      "price_usd": 299.0,
+      "screen_in": 12.0,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 6.38
+    },
+    {
+      "brand": "Oppo",
+      "model": "K7 5G 256GB",
+      "battery_mah": 4025,
+      "price_usd": 299.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.88
+    },
+    {
+      "brand": "Honor",
+      "model": "X50",
+      "battery_mah": 5800,
+      "price_usd": 299.0,
+      "screen_in": 6.8,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.11
+    },
+    {
+      "brand": "Honor",
+      "model": "X30i",
+      "battery_mah": 4000,
+      "price_usd": 299.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.06
+    },
+    {
+      "brand": "Vivo",
+      "model": "T2 Series 128GB",
+      "battery_mah": 4500,
+      "price_usd": 299.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Honor",
+      "model": "X20 SE",
+      "battery_mah": 4000,
+      "price_usd": 299.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.0
+    },
+    {
+      "brand": "Oppo",
+      "model": "K11 256GB",
+      "battery_mah": 5000,
+      "price_usd": 299.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno5 5G 128GB",
+      "battery_mah": 4300,
+      "price_usd": 299.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.89
+    },
+    {
+      "brand": "Oppo",
+      "model": "K9 5G 256GB",
+      "battery_mah": 4300,
+      "price_usd": 299.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.89
+    },
+    {
+      "brand": "Honor",
+      "model": "X40",
+      "battery_mah": 5100,
+      "price_usd": 299.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.04
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy A14 256GB",
+      "battery_mah": 5000,
+      "price_usd": 299.0,
+      "screen_in": 6.6,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Vivo",
+      "model": "V23e 128GB",
+      "battery_mah": 4050,
+      "price_usd": 299.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Realme",
+      "model": "13 Pro 5G 128GB",
+      "battery_mah": 5200,
+      "price_usd": 300.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.06
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad X 64GB",
+      "battery_mah": 8340,
+      "price_usd": 310.0,
+      "screen_in": 11.0,
+      "ram_gb": 4,
+      "color": "#A65628",
+      "radius": 5.75
+    },
+    {
+      "brand": "Vivo",
+      "model": "T1 5G 256GB",
+      "battery_mah": 5000,
+      "price_usd": 319.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.99
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 5",
+      "battery_mah": 3800,
+      "price_usd": 319.0,
+      "screen_in": 6.5,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 2.96
+    },
+    {
+      "brand": "Honor",
+      "model": "X10",
+      "battery_mah": 4300,
+      "price_usd": 319.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.02
+    },
+    {
+      "brand": "Vivo",
+      "model": "V15 256GB",
+      "battery_mah": 4000,
+      "price_usd": 319.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.96
+    },
+    {
+      "brand": "Realme",
+      "model": "13 Pro 5G 256GB",
+      "battery_mah": 5200,
+      "price_usd": 320.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#A65628",
+      "radius": 3.06
+    },
+    {
+      "brand": "Realme",
+      "model": "14 Pro 5G 128GB",
+      "battery_mah": 5800,
+      "price_usd": 320.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.06
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad 2 256GB",
+      "battery_mah": 8360,
+      "price_usd": 320.0,
+      "screen_in": 11.5,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 6.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "K9 Pro 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 329.0,
+      "screen_in": 6.4,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.89
+    },
+    {
+      "brand": "Vivo",
+      "model": "Pad 128GB",
+      "battery_mah": 8040,
+      "price_usd": 329.0,
+      "screen_in": 11.0,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 5.75
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad 10.2-inch 32GB",
+      "battery_mah": 8612,
+      "price_usd": 329.0,
+      "screen_in": 10.2,
+      "ram_gb": 3,
+      "color": "#377EB8",
+      "radius": 5.25
+    },
+    {
+      "brand": "Realme",
+      "model": "Neo 7 128GB",
+      "battery_mah": 5000,
+      "price_usd": 330.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.06
+    },
+    {
+      "brand": "Realme",
+      "model": "14 Pro+ 5G 256GB",
+      "battery_mah": 6000,
+      "price_usd": 340.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#A65628",
+      "radius": 3.14
+    },
+    {
+      "brand": "Realme",
+      "model": "14 Pro 5G 256GB",
+      "battery_mah": 5800,
+      "price_usd": 340.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.06
+    },
+    {
+      "brand": "Realme",
+      "model": "P2 Pro 5G 256GB",
+      "battery_mah": 5500,
+      "price_usd": 340.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#A65628",
+      "radius": 3.11
+    },
+    {
+      "brand": "Vivo",
+      "model": "Pad 3 128GB",
+      "battery_mah": 8040,
+      "price_usd": 349.0,
+      "screen_in": 11.0,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 5.75
+    },
+    {
+      "brand": "Vivo",
+      "model": "T2 Series 256GB",
+      "battery_mah": 4500,
+      "price_usd": 349.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Vivo",
+      "model": "V23e 256GB",
+      "battery_mah": 4050,
+      "price_usd": 349.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y75 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 349.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.99
+    },
+    {
+      "brand": "Vivo",
+      "model": "T3 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 349.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 3.04
+    },
+    {
+      "brand": "Vivo",
+      "model": "X21 128GB",
+      "battery_mah": 3200,
+      "price_usd": 349.0,
+      "screen_in": 6.3,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.8
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy F54 128GB",
+      "battery_mah": 6000,
+      "price_usd": 349.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.06
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy M34 256GB",
+      "battery_mah": 6000,
+      "price_usd": 349.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 2.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy M54 128GB",
+      "battery_mah": 6000,
+      "price_usd": 349.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno4 5G 256GB",
+      "battery_mah": 4000,
+      "price_usd": 349.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.89
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy F34 256GB",
+      "battery_mah": 6000,
+      "price_usd": 349.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 2.94
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 4",
+      "battery_mah": 4300,
+      "price_usd": 349.0,
+      "screen_in": 6.8,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno5 5G 256GB",
+      "battery_mah": 4300,
+      "price_usd": 349.0,
+      "screen_in": 6.4,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.89
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy A34 128GB",
+      "battery_mah": 5000,
+      "price_usd": 349.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy A24 256GB",
+      "battery_mah": 5000,
+      "price_usd": 349.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 2.94
+    },
+    {
+      "brand": "Honor",
+      "model": "30S",
+      "battery_mah": 4000,
+      "price_usd": 349.0,
+      "screen_in": 6.5,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 2.94
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno7 5G 128GB",
+      "battery_mah": 4500,
+      "price_usd": 349.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.88
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno6 5G 128GB",
+      "battery_mah": 4300,
+      "price_usd": 349.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.89
+    },
+    {
+      "brand": "Realme",
+      "model": "P2 Pro 5G 128GB",
+      "battery_mah": 5100,
+      "price_usd": 350.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.06
+    },
+    {
+      "brand": "Realme",
+      "model": "Pad X 128GB",
+      "battery_mah": 8340,
+      "price_usd": 350.0,
+      "screen_in": 11.0,
+      "ram_gb": 6,
+      "color": "#A65628",
+      "radius": 5.75
+    },
+    {
+      "brand": "Realme",
+      "model": "GT 6T 128GB",
+      "battery_mah": 5500,
+      "price_usd": 360.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.11
+    },
+    {
+      "brand": "Realme",
+      "model": "14 Pro+ 5G 512GB",
+      "battery_mah": 6000,
+      "price_usd": 360.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#A65628",
+      "radius": 3.14
+    },
+    {
+      "brand": "Realme",
+      "model": "13 Pro+ 5G 256GB",
+      "battery_mah": 5500,
+      "price_usd": 360.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#A65628",
+      "radius": 3.11
+    },
+    {
+      "brand": "Realme",
+      "model": "P2 Pro 5G 512GB",
+      "battery_mah": 5500,
+      "price_usd": 360.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#A65628",
+      "radius": 3.11
+    },
+    {
+      "brand": "Honor",
+      "model": "X20",
+      "battery_mah": 4300,
+      "price_usd": 379.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.04
+    },
+    {
+      "brand": "Honor",
+      "model": "X30",
+      "battery_mah": 4800,
+      "price_usd": 379.0,
+      "screen_in": 6.8,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Honor",
+      "model": "X10 Max",
+      "battery_mah": 5000,
+      "price_usd": 379.0,
+      "screen_in": 7.1,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.31
+    },
+    {
+      "brand": "Realme",
+      "model": "13 Pro+ 5G 512GB",
+      "battery_mah": 5500,
+      "price_usd": 380.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#A65628",
+      "radius": 3.11
+    },
+    {
+      "brand": "Realme",
+      "model": "GT 6 128GB",
+      "battery_mah": 5500,
+      "price_usd": 380.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.11
+    },
+    {
+      "brand": "Realme",
+      "model": "GT 6T 256GB",
+      "battery_mah": 5500,
+      "price_usd": 380.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.11
+    },
+    {
+      "brand": "Realme",
+      "model": "Neo 7 256GB",
+      "battery_mah": 5000,
+      "price_usd": 380.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#A65628",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "A3 4G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 399.0,
+      "screen_in": 6.7,
+      "ram_gb": 4,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "A3 128GB",
+      "battery_mah": 5000,
+      "price_usd": 399.0,
+      "screen_in": 6.7,
+      "ram_gb": 4,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno8 5G 128GB",
+      "battery_mah": 4500,
+      "price_usd": 399.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.88
+    },
+    {
+      "brand": "Vivo",
+      "model": "Pad 2 256GB",
+      "battery_mah": 8040,
+      "price_usd": 399.0,
+      "screen_in": 11.0,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 5.75
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y200 GT 128GB",
+      "battery_mah": 5000,
+      "price_usd": 399.0,
+      "screen_in": 6.6,
+      "ram_gb": 12,
+      "color": "#FF7F00",
+      "radius": 2.99
+    },
+    {
+      "brand": "Vivo",
+      "model": "V17 Pro 128GB",
+      "battery_mah": 4100,
+      "price_usd": 399.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Honor",
+      "model": "Tablet V7",
+      "battery_mah": 7250,
+      "price_usd": 399.0,
+      "screen_in": 10.4,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 5.38
+    },
+    {
+      "brand": "Vivo",
+      "model": "V15 Pro 128GB",
+      "battery_mah": 3700,
+      "price_usd": 399.0,
+      "screen_in": 6.4,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.87
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y75 5G 256GB",
+      "battery_mah": 5000,
+      "price_usd": 399.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.99
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y100 128GB",
+      "battery_mah": 4500,
+      "price_usd": 399.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Vivo",
+      "model": "V19 128GB",
+      "battery_mah": 4500,
+      "price_usd": 399.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Honor",
+      "model": "90 SE",
+      "battery_mah": 4600,
+      "price_usd": 399.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno5 Pro 5G 128GB",
+      "battery_mah": 4350,
+      "price_usd": 399.0,
+      "screen_in": 6.5,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad X9 Pro",
+      "battery_mah": 8000,
+      "price_usd": 399.0,
+      "screen_in": 11.6,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 6.12
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy A54 128GB",
+      "battery_mah": 5000,
+      "price_usd": 399.0,
+      "screen_in": 6.4,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 2.88
+    },
+    {
+      "brand": "Honor",
+      "model": "80 SE",
+      "battery_mah": 4600,
+      "price_usd": 399.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.04
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy M54 256GB",
+      "battery_mah": 6000,
+      "price_usd": 399.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.06
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy C9 Pro 64GB",
+      "battery_mah": 4000,
+      "price_usd": 399.0,
+      "screen_in": 6.0,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 2.62
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy F54 256GB",
+      "battery_mah": 6000,
+      "price_usd": 399.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.06
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad 9",
+      "battery_mah": 8300,
+      "price_usd": 399.0,
+      "screen_in": 12.1,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 6.44
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Mini 7.9-inch 64GB",
+      "battery_mah": 5124,
+      "price_usd": 399.0,
+      "screen_in": 7.9,
+      "ram_gb": 3,
+      "color": "#377EB8",
+      "radius": 3.81
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno6 5G 256GB",
+      "battery_mah": 4300,
+      "price_usd": 399.0,
+      "screen_in": 6.4,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.89
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno7 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 399.0,
+      "screen_in": 6.4,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.88
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad X10",
+      "battery_mah": 8850,
+      "price_usd": 399.0,
+      "screen_in": 12.1,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 6.44
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy A34 256GB",
+      "battery_mah": 5000,
+      "price_usd": 399.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Realme",
+      "model": "GT 6 256GB",
+      "battery_mah": 5500,
+      "price_usd": 400.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#A65628",
+      "radius": 3.11
+    },
+    {
+      "brand": "Realme",
+      "model": "GT 6 512GB",
+      "battery_mah": 5500,
+      "price_usd": 420.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#A65628",
+      "radius": 3.11
+    },
+    {
+      "brand": "Vivo",
+      "model": "V19 256GB",
+      "battery_mah": 4500,
+      "price_usd": 429.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Vivo",
+      "model": "V17 Pro 256GB",
+      "battery_mah": 4100,
+      "price_usd": 429.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad 10.2-inch 128GB",
+      "battery_mah": 8612,
+      "price_usd": 429.0,
+      "screen_in": 10.2,
+      "ram_gb": 3,
+      "color": "#377EB8",
+      "radius": 5.25
+    },
+    {
+      "brand": "Realme",
+      "model": "GT 7 128GB",
+      "battery_mah": 5200,
+      "price_usd": 440.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#A65628",
+      "radius": 3.12
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy A54 256GB",
+      "battery_mah": 5000,
+      "price_usd": 449.0,
+      "screen_in": 6.4,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 2.88
+    },
+    {
+      "brand": "Honor",
+      "model": "30",
+      "battery_mah": 4000,
+      "price_usd": 449.0,
+      "screen_in": 6.5,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 2.96
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno12 F 256GB",
+      "battery_mah": 5000,
+      "price_usd": 449.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Vivo",
+      "model": "Pad 3 Pro 256GB",
+      "battery_mah": 8040,
+      "price_usd": 449.0,
+      "screen_in": 12.3,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 6.56
+    },
+    {
+      "brand": "Vivo",
+      "model": "V40e 128GB",
+      "battery_mah": 4100,
+      "price_usd": 449.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Vivo",
+      "model": "V15 Pro 256GB",
+      "battery_mah": 3700,
+      "price_usd": 449.0,
+      "screen_in": 6.4,
+      "ram_gb": 6,
+      "color": "#FF7F00",
+      "radius": 2.87
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno9 5G 128GB",
+      "battery_mah": 4500,
+      "price_usd": 449.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno12 F 4G 256GB",
+      "battery_mah": 5000,
+      "price_usd": 449.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Vivo",
+      "model": "Y100 256GB",
+      "battery_mah": 4500,
+      "price_usd": 449.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno8 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 449.0,
+      "screen_in": 6.4,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.88
+    },
+    {
+      "brand": "Oppo",
+      "model": "A3x 4G 128GB",
+      "battery_mah": 5100,
+      "price_usd": 449.0,
+      "screen_in": 6.7,
+      "ram_gb": 4,
+      "color": "#E41A1C",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "A60 128GB",
+      "battery_mah": 5000,
+      "price_usd": 449.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "A3x 128GB",
+      "battery_mah": 5100,
+      "price_usd": 449.0,
+      "screen_in": 6.7,
+      "ram_gb": 4,
+      "color": "#E41A1C",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno5 Pro 5G 256GB",
+      "battery_mah": 4350,
+      "price_usd": 449.0,
+      "screen_in": 6.5,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno6 Pro 5G 128GB",
+      "battery_mah": 4500,
+      "price_usd": 449.0,
+      "screen_in": 6.5,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Honor",
+      "model": "60 SE",
+      "battery_mah": 4300,
+      "price_usd": 449.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.04
+    },
+    {
+      "brand": "Honor",
+      "model": "50 SE",
+      "battery_mah": 4000,
+      "price_usd": 449.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.11
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad V8",
+      "battery_mah": 7250,
+      "price_usd": 449.0,
+      "screen_in": 11.0,
+      "ram_gb": 6,
+      "color": "#4DAF4A",
+      "radius": 5.75
+    },
+    {
+      "brand": "Realme",
+      "model": "GT 7 Pro 128GB",
+      "battery_mah": 6500,
+      "price_usd": 470.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#A65628",
+      "radius": 3.11
+    },
+    {
+      "brand": "Vivo",
+      "model": "V23 5G 128GB",
+      "battery_mah": 4200,
+      "price_usd": 499.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Vivo",
+      "model": "V20 Pro 128GB",
+      "battery_mah": 4000,
+      "price_usd": 499.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno13 F 4G 256GB",
+      "battery_mah": 5800,
+      "price_usd": 499.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.04
+    },
+    {
+      "brand": "Honor",
+      "model": "Tablet V7 Pro",
+      "battery_mah": 7250,
+      "price_usd": 499.0,
+      "screen_in": 11.0,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 5.75
+    },
+    {
+      "brand": "Vivo",
+      "model": "Pad 4 Pro 256GB",
+      "battery_mah": 8040,
+      "price_usd": 499.0,
+      "screen_in": 12.9,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 6.94
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno13 F 256GB",
+      "battery_mah": 5800,
+      "price_usd": 499.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "Pad Neo 128GB",
+      "battery_mah": 8360,
+      "price_usd": 499.0,
+      "screen_in": 11.0,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 5.75
+    },
+    {
+      "brand": "Oppo",
+      "model": "F27 128GB",
+      "battery_mah": 5000,
+      "price_usd": 499.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "A60 256GB",
+      "battery_mah": 5000,
+      "price_usd": 499.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "A3x 256GB",
+      "battery_mah": 5100,
+      "price_usd": 499.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 3.04
+    },
+    {
+      "brand": "Vivo",
+      "model": "X27 Pro 128GB",
+      "battery_mah": 4000,
+      "price_usd": 499.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.87
+    },
+    {
+      "brand": "Honor",
+      "model": "X30 Max",
+      "battery_mah": 5000,
+      "price_usd": 499.0,
+      "screen_in": 7.1,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.31
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Mini 7.9-inch 256GB",
+      "battery_mah": 5124,
+      "price_usd": 499.0,
+      "screen_in": 7.9,
+      "ram_gb": 3,
+      "color": "#377EB8",
+      "radius": 3.81
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno6 Pro 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 499.0,
+      "screen_in": 6.5,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno7 Pro 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 499.0,
+      "screen_in": 6.5,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Oppo",
+      "model": "A3x 4G 256GB",
+      "battery_mah": 5100,
+      "price_usd": 499.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#E41A1C",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno11 F 256GB",
+      "battery_mah": 5000,
+      "price_usd": 499.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "A80 256GB",
+      "battery_mah": 5100,
+      "price_usd": 499.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno9 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 499.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno4 Pro 5G 256GB",
+      "battery_mah": 4000,
+      "price_usd": 499.0,
+      "screen_in": 6.5,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno3 Pro 5G 256GB",
+      "battery_mah": 4025,
+      "price_usd": 499.0,
+      "screen_in": 6.5,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.94
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno10 5G 128GB",
+      "battery_mah": 5000,
+      "price_usd": 499.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab Active 3 64GB",
+      "battery_mah": 5050,
+      "price_usd": 499.0,
+      "screen_in": 8.0,
+      "ram_gb": 4,
+      "color": "#984EA3",
+      "radius": 3.88
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad X10 Pro",
+      "battery_mah": 9000,
+      "price_usd": 499.0,
+      "screen_in": 12.6,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 6.75
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Xcover 6 Pro 128GB",
+      "battery_mah": 4050,
+      "price_usd": 499.0,
+      "screen_in": 6.6,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad 9 Pro",
+      "battery_mah": 9000,
+      "price_usd": 499.0,
+      "screen_in": 12.6,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 6.75
+    },
+    {
+      "brand": "Realme",
+      "model": "GT 7 256GB",
+      "battery_mah": 5200,
+      "price_usd": 500.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#A65628",
+      "radius": 3.12
+    },
+    {
+      "brand": "Realme",
+      "model": "GT 7 Pro 256GB",
+      "battery_mah": 6500,
+      "price_usd": 500.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#A65628",
+      "radius": 3.11
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab S9 FE 128GB",
+      "battery_mah": 8000,
+      "price_usd": 549.0,
+      "screen_in": 10.9,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 5.69
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab Active 5 128GB",
+      "battery_mah": 5050,
+      "price_usd": 549.0,
+      "screen_in": 8.0,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 3.88
+    },
+    {
+      "brand": "Honor",
+      "model": "70",
+      "battery_mah": 4800,
+      "price_usd": 549.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.04
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno8 Pro 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 549.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Honor",
+      "model": "50",
+      "battery_mah": 4300,
+      "price_usd": 549.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 2.98
+    },
+    {
+      "brand": "Honor",
+      "model": "60",
+      "battery_mah": 4800,
+      "price_usd": 549.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.04
+    },
+    {
+      "brand": "Honor",
+      "model": "Play 4 Pro",
+      "battery_mah": 4200,
+      "price_usd": 549.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 2.98
+    },
+    {
+      "brand": "Honor",
+      "model": "80",
+      "battery_mah": 4800,
+      "price_usd": 549.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.04
+    },
+    {
+      "brand": "Vivo",
+      "model": "V23 5G 256GB",
+      "battery_mah": 4200,
+      "price_usd": 549.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Vivo",
+      "model": "V20 Pro 256GB",
+      "battery_mah": 4000,
+      "price_usd": 549.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Oppo",
+      "model": "F27 256GB",
+      "battery_mah": 5000,
+      "price_usd": 549.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno10 5G 256GB",
+      "battery_mah": 5000,
+      "price_usd": 549.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "F25 Pro 128GB",
+      "battery_mah": 4500,
+      "price_usd": 549.0,
+      "screen_in": 6.5,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Vivo",
+      "model": "V30 Pro 128GB",
+      "battery_mah": 4500,
+      "price_usd": 549.0,
+      "screen_in": 6.4,
+      "ram_gb": 12,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Vivo",
+      "model": "X27 Pro 256GB",
+      "battery_mah": 4000,
+      "price_usd": 549.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.87
+    },
+    {
+      "brand": "Oppo",
+      "model": "F25 Pro 256GB",
+      "battery_mah": 4500,
+      "price_usd": 599.0,
+      "screen_in": 6.5,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Oppo",
+      "model": "A5 Pro 256GB",
+      "battery_mah": 6000,
+      "price_usd": 599.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "F27 Pro+ 256GB",
+      "battery_mah": 5000,
+      "price_usd": 599.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno5 Pro+ 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 599.0,
+      "screen_in": 6.5,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno9 Pro 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 599.0,
+      "screen_in": 6.7,
+      "ram_gb": 16,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno10 Pro 5G 256GB",
+      "battery_mah": 4600,
+      "price_usd": 599.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Honor",
+      "model": "V40",
+      "battery_mah": 4000,
+      "price_usd": 599.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.07
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno8 Pro+ 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 599.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Vivo",
+      "model": "V25 Pro 128GB",
+      "battery_mah": 4830,
+      "price_usd": 599.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.97
+    },
+    {
+      "brand": "Oppo",
+      "model": "Pad Neo 256GB",
+      "battery_mah": 8360,
+      "price_usd": 599.0,
+      "screen_in": 11.0,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 5.75
+    },
+    {
+      "brand": "Vivo",
+      "model": "V27 128GB",
+      "battery_mah": 4600,
+      "price_usd": 599.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno12 256GB",
+      "battery_mah": 5000,
+      "price_usd": 599.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Vivo",
+      "model": "S18 Pro 256GB",
+      "battery_mah": 4700,
+      "price_usd": 599.0,
+      "screen_in": 6.6,
+      "ram_gb": 12,
+      "color": "#FF7F00",
+      "radius": 2.97
+    },
+    {
+      "brand": "Honor",
+      "model": "90",
+      "battery_mah": 5000,
+      "price_usd": 599.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.06
+    },
+    {
+      "brand": "Honor",
+      "model": "30 Pro",
+      "battery_mah": 4000,
+      "price_usd": 599.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 2.98
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Air 10.9-inch 64GB",
+      "battery_mah": 7608,
+      "price_usd": 599.0,
+      "screen_in": 10.9,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 5.69
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno6 Pro+ 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 599.0,
+      "screen_in": 6.5,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Honor",
+      "model": "50 Pro",
+      "battery_mah": 4000,
+      "price_usd": 649.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.07
+    },
+    {
+      "brand": "Honor",
+      "model": "60 Pro",
+      "battery_mah": 4800,
+      "price_usd": 649.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.11
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad V10",
+      "battery_mah": 8500,
+      "price_usd": 649.0,
+      "screen_in": 12.1,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 6.44
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad V8 Pro",
+      "battery_mah": 8500,
+      "price_usd": 649.0,
+      "screen_in": 12.1,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 6.44
+    },
+    {
+      "brand": "Vivo",
+      "model": "V27 256GB",
+      "battery_mah": 4600,
+      "price_usd": 649.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad V9",
+      "battery_mah": 8500,
+      "price_usd": 649.0,
+      "screen_in": 12.1,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 6.44
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno9 Pro+ 5G 256GB",
+      "battery_mah": 4700,
+      "price_usd": 649.0,
+      "screen_in": 6.7,
+      "ram_gb": 16,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Vivo",
+      "model": "V25 Pro 256GB",
+      "battery_mah": 4830,
+      "price_usd": 649.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.97
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab Active 4 Pro 128GB",
+      "battery_mah": 7600,
+      "price_usd": 649.0,
+      "screen_in": 10.1,
+      "ram_gb": 6,
+      "color": "#984EA3",
+      "radius": 5.19
+    },
+    {
+      "brand": "Oppo",
+      "model": "Pad 3 128GB",
+      "battery_mah": 9510,
+      "price_usd": 699.0,
+      "screen_in": 11.6,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 6.12
+    },
+    {
+      "brand": "Oppo",
+      "model": "K12 Plus 256GB",
+      "battery_mah": 6400,
+      "price_usd": 699.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "F27 Pro+ 512GB",
+      "battery_mah": 5000,
+      "price_usd": 699.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "A5 Pro 512GB",
+      "battery_mah": 6000,
+      "price_usd": 699.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno11 Pro 512GB",
+      "battery_mah": 4600,
+      "price_usd": 699.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.09
+    },
+    {
+      "brand": "Vivo",
+      "model": "iQOO 12 256GB",
+      "battery_mah": 5000,
+      "price_usd": 699.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Vivo",
+      "model": "V27 Pro 128GB",
+      "battery_mah": 4600,
+      "price_usd": 699.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno13 256GB",
+      "battery_mah": 5600,
+      "price_usd": 699.0,
+      "screen_in": 6.6,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 2.99
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno10 Pro+ 5G 256GB",
+      "battery_mah": 4700,
+      "price_usd": 699.0,
+      "screen_in": 6.7,
+      "ram_gb": 16,
+      "color": "#E41A1C",
+      "radius": 3.09
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11 64GB",
+      "battery_mah": 3110,
+      "price_usd": 699.0,
+      "screen_in": 6.1,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab S8 128GB",
+      "battery_mah": 8000,
+      "price_usd": 699.0,
+      "screen_in": 11.0,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 5.75
+    },
+    {
+      "brand": "Honor",
+      "model": "30 Pro+",
+      "battery_mah": 4000,
+      "price_usd": 699.0,
+      "screen_in": 6.6,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 2.98
+    },
+    {
+      "brand": "Honor",
+      "model": "90 Pro",
+      "battery_mah": 5000,
+      "price_usd": 699.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.11
+    },
+    {
+      "brand": "Honor",
+      "model": "70 Pro",
+      "battery_mah": 4500,
+      "price_usd": 699.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.11
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S22 128GB",
+      "battery_mah": 3800,
+      "price_usd": 699.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 mini 64GB",
+      "battery_mah": 2227,
+      "price_usd": 699.0,
+      "screen_in": 5.4,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.25
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 mini 128GB",
+      "battery_mah": 2438,
+      "price_usd": 699.0,
+      "screen_in": 5.4,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.25
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone XR 64GB",
+      "battery_mah": 2942,
+      "price_usd": 749.0,
+      "screen_in": 6.1,
+      "ram_gb": 3,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Air 10.9-inch 256GB",
+      "battery_mah": 7608,
+      "price_usd": 749.0,
+      "screen_in": 10.9,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 5.69
+    },
+    {
+      "brand": "Vivo",
+      "model": "V27 Pro 256GB",
+      "battery_mah": 4600,
+      "price_usd": 749.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno12 Pro 512GB",
+      "battery_mah": 4600,
+      "price_usd": 749.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.09
+    },
+    {
+      "brand": "Vivo",
+      "model": "X70 Pro 128GB",
+      "battery_mah": 4450,
+      "price_usd": 749.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.97
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 128GB",
+      "battery_mah": 3240,
+      "price_usd": 799.0,
+      "screen_in": 6.1,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S22+ 128GB",
+      "battery_mah": 4500,
+      "price_usd": 799.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Honor",
+      "model": "MagicPad 3",
+      "battery_mah": 10500,
+      "price_usd": 799.0,
+      "screen_in": 13.0,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 7.0
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 mini 256GB",
+      "battery_mah": 2438,
+      "price_usd": 799.0,
+      "screen_in": 5.4,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.25
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 128GB",
+      "battery_mah": 3200,
+      "price_usd": 799.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab S9 128GB",
+      "battery_mah": 8400,
+      "price_usd": 799.0,
+      "screen_in": 11.0,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 5.75
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S22 256GB",
+      "battery_mah": 3800,
+      "price_usd": 799.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 2.69
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S23 128GB",
+      "battery_mah": 3900,
+      "price_usd": 799.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 2.69
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S24 128GB",
+      "battery_mah": 4000,
+      "price_usd": 799.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 2.69
+    },
+    {
+      "brand": "Honor",
+      "model": "70 Pro+",
+      "battery_mah": 4500,
+      "price_usd": 799.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.11
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone XR 128GB",
+      "battery_mah": 2942,
+      "price_usd": 799.0,
+      "screen_in": 6.1,
+      "ram_gb": 3,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 64GB",
+      "battery_mah": 2815,
+      "price_usd": 799.0,
+      "screen_in": 6.1,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11 128GB",
+      "battery_mah": 3110,
+      "price_usd": 799.0,
+      "screen_in": 6.1,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Honor",
+      "model": "80 Pro",
+      "battery_mah": 4800,
+      "price_usd": 799.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.11
+    },
+    {
+      "brand": "Honor",
+      "model": "MagicPad 13",
+      "battery_mah": 10000,
+      "price_usd": 799.0,
+      "screen_in": 13.0,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 7.0
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 mini 128GB",
+      "battery_mah": 2227,
+      "price_usd": 799.0,
+      "screen_in": 5.4,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.25
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 128GB",
+      "battery_mah": 3200,
+      "price_usd": 799.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Pro 11-inch 128GB",
+      "battery_mah": 7812,
+      "price_usd": 799.0,
+      "screen_in": 11.0,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 5.75
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 128GB",
+      "battery_mah": 3600,
+      "price_usd": 799.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X5 256GB",
+      "battery_mah": 4800,
+      "price_usd": 799.0,
+      "screen_in": 6.5,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 2.97
+    },
+    {
+      "brand": "Vivo",
+      "model": "X70 Pro 256GB",
+      "battery_mah": 4450,
+      "price_usd": 799.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.97
+    },
+    {
+      "brand": "Oppo",
+      "model": "Reno13 Pro 512GB",
+      "battery_mah": 5800,
+      "price_usd": 799.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.14
+    },
+    {
+      "brand": "Oppo",
+      "model": "Pad 3 256GB",
+      "battery_mah": 9510,
+      "price_usd": 799.0,
+      "screen_in": 11.6,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 6.12
+    },
+    {
+      "brand": "Oppo",
+      "model": "K12 Plus 512GB",
+      "battery_mah": 6400,
+      "price_usd": 799.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 256GB",
+      "battery_mah": 3200,
+      "price_usd": 849.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 256GB",
+      "battery_mah": 3600,
+      "price_usd": 849.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 256GB",
+      "battery_mah": 3200,
+      "price_usd": 849.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 Plus 128GB",
+      "battery_mah": 4300,
+      "price_usd": 899.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X5 Pro 256GB",
+      "battery_mah": 5000,
+      "price_usd": 899.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find N2 Flip 256GB",
+      "battery_mah": 4300,
+      "price_usd": 899.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.12
+    },
+    {
+      "brand": "Vivo",
+      "model": "X80 256GB",
+      "battery_mah": 4700,
+      "price_usd": 899.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Oppo",
+      "model": "Pad 3 Pro 256GB",
+      "battery_mah": 9510,
+      "price_usd": 899.0,
+      "screen_in": 12.1,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 6.44
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X6 256GB",
+      "battery_mah": 4800,
+      "price_usd": 899.0,
+      "screen_in": 6.7,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.09
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab S8+ 256GB",
+      "battery_mah": 10090,
+      "price_usd": 899.0,
+      "screen_in": 12.4,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 6.62
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 10 128GB",
+      "battery_mah": 3500,
+      "price_usd": 899.0,
+      "screen_in": 6.3,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 2.81
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S23+ 128GB",
+      "battery_mah": 4700,
+      "price_usd": 899.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S23 256GB",
+      "battery_mah": 3900,
+      "price_usd": 899.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 2.69
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic3",
+      "battery_mah": 4600,
+      "price_usd": 899.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.1
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S22+ 256GB",
+      "battery_mah": 4500,
+      "price_usd": 899.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Vivo",
+      "model": "X30 Pro 128GB",
+      "battery_mah": 4200,
+      "price_usd": 899.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Vivo",
+      "model": "X60 Pro 256GB",
+      "battery_mah": 4200,
+      "price_usd": 899.0,
+      "screen_in": 6.6,
+      "ram_gb": 12,
+      "color": "#FF7F00",
+      "radius": 2.97
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic4",
+      "battery_mah": 4800,
+      "price_usd": 899.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S24+ 128GB",
+      "battery_mah": 4800,
+      "price_usd": 899.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S24 256GB",
+      "battery_mah": 4000,
+      "price_usd": 899.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 128GB",
+      "battery_mah": 2815,
+      "price_usd": 899.0,
+      "screen_in": 6.1,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Honor",
+      "model": "MagicPad 2",
+      "battery_mah": 10500,
+      "price_usd": 899.0,
+      "screen_in": 13.2,
+      "ram_gb": 16,
+      "color": "#4DAF4A",
+      "radius": 7.12
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 256GB",
+      "battery_mah": 3240,
+      "price_usd": 899.0,
+      "screen_in": 6.1,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 Plus 128GB",
+      "battery_mah": 4200,
+      "price_usd": 899.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 512GB",
+      "battery_mah": 3600,
+      "price_usd": 899.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 mini 512GB",
+      "battery_mah": 2438,
+      "price_usd": 899.0,
+      "screen_in": 5.4,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.25
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 Plus 128GB",
+      "battery_mah": 4325,
+      "price_usd": 899.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11 256GB",
+      "battery_mah": 3110,
+      "price_usd": 899.0,
+      "screen_in": 6.1,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Pro 11-inch 256GB",
+      "battery_mah": 7812,
+      "price_usd": 899.0,
+      "screen_in": 11.0,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 5.75
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone XR 256GB",
+      "battery_mah": 2942,
+      "price_usd": 899.0,
+      "screen_in": 6.1,
+      "ram_gb": 3,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 mini 256GB",
+      "battery_mah": 2227,
+      "price_usd": 899.0,
+      "screen_in": 5.4,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.25
+    },
+    {
+      "brand": "Vivo",
+      "model": "X30 Pro 256GB",
+      "battery_mah": 4200,
+      "price_usd": 949.0,
+      "screen_in": 6.4,
+      "ram_gb": 8,
+      "color": "#FF7F00",
+      "radius": 2.9
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 10 256GB",
+      "battery_mah": 3500,
+      "price_usd": 949.0,
+      "screen_in": 6.3,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 2.81
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 512GB",
+      "battery_mah": 3200,
+      "price_usd": 949.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 Plus 256GB",
+      "battery_mah": 4200,
+      "price_usd": 949.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Vivo",
+      "model": "X200 Pro Mini 256GB",
+      "battery_mah": 5700,
+      "price_usd": 949.0,
+      "screen_in": 6.3,
+      "ram_gb": 16,
+      "color": "#FF7F00",
+      "radius": 2.82
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 512GB",
+      "battery_mah": 3200,
+      "price_usd": 949.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 Plus 512GB",
+      "battery_mah": 4200,
+      "price_usd": 999.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Pad 3 Pro 512GB",
+      "battery_mah": 9510,
+      "price_usd": 999.0,
+      "screen_in": 12.1,
+      "ram_gb": 16,
+      "color": "#E41A1C",
+      "radius": 6.44
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X6 512GB",
+      "battery_mah": 4800,
+      "price_usd": 999.0,
+      "screen_in": 6.7,
+      "ram_gb": 16,
+      "color": "#E41A1C",
+      "radius": 3.09
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X6 Pro 256GB",
+      "battery_mah": 5000,
+      "price_usd": 999.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.14
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find N3 Flip 256GB",
+      "battery_mah": 4300,
+      "price_usd": 999.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.12
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab S9+ 256GB",
+      "battery_mah": 10090,
+      "price_usd": 999.0,
+      "screen_in": 12.4,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 6.62
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 20 128GB",
+      "battery_mah": 4300,
+      "price_usd": 999.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.06
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S23+ 256GB",
+      "battery_mah": 4700,
+      "price_usd": 999.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip 5 256GB",
+      "battery_mah": 3700,
+      "price_usd": 999.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.06
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip 4 256GB",
+      "battery_mah": 3700,
+      "price_usd": 999.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.06
+    },
+    {
+      "brand": "Vivo",
+      "model": "X80 512GB",
+      "battery_mah": 4700,
+      "price_usd": 999.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Vivo",
+      "model": "X60 Pro 512GB",
+      "battery_mah": 4200,
+      "price_usd": 999.0,
+      "screen_in": 6.6,
+      "ram_gb": 12,
+      "color": "#FF7F00",
+      "radius": 2.97
+    },
+    {
+      "brand": "Vivo",
+      "model": "X200 128GB",
+      "battery_mah": 6000,
+      "price_usd": 999.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 Plus 256GB",
+      "battery_mah": 4300,
+      "price_usd": 999.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11 Pro 64GB",
+      "battery_mah": 3046,
+      "price_usd": 999.0,
+      "screen_in": 5.8,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.5
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find N2 Flip 512GB",
+      "battery_mah": 4300,
+      "price_usd": 999.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.12
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X5 Pro 512GB",
+      "battery_mah": 5000,
+      "price_usd": 999.0,
+      "screen_in": 6.7,
+      "ram_gb": 16,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic5",
+      "battery_mah": 5100,
+      "price_usd": 999.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 512GB",
+      "battery_mah": 3240,
+      "price_usd": 999.0,
+      "screen_in": 6.1,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 Plus 256GB",
+      "battery_mah": 4325,
+      "price_usd": 999.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 Pro 128GB",
+      "battery_mah": 3095,
+      "price_usd": 999.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S24+ 256GB",
+      "battery_mah": 4800,
+      "price_usd": 999.0,
+      "screen_in": 6.6,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.0
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Pro 12.9-inch 128GB",
+      "battery_mah": 9720,
+      "price_usd": 999.0,
+      "screen_in": 12.9,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 6.94
+    },
+    {
+      "brand": "Honor",
+      "model": "Pad GT Pro",
+      "battery_mah": 10500,
+      "price_usd": 999.0,
+      "screen_in": 13.5,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 7.31
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone XS 64GB",
+      "battery_mah": 2658,
+      "price_usd": 999.0,
+      "screen_in": 5.8,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.5
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone X 64GB",
+      "battery_mah": 2716,
+      "price_usd": 999.0,
+      "screen_in": 5.8,
+      "ram_gb": 3,
+      "color": "#377EB8",
+      "radius": 2.5
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 256GB",
+      "battery_mah": 2815,
+      "price_usd": 999.0,
+      "screen_in": 6.1,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 Pro 128GB",
+      "battery_mah": 2815,
+      "price_usd": 999.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 Pro 128GB",
+      "battery_mah": 4400,
+      "price_usd": 999.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 Plus 512GB",
+      "battery_mah": 4325,
+      "price_usd": 1049.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 Pro 256GB",
+      "battery_mah": 4400,
+      "price_usd": 1049.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 Plus 512GB",
+      "battery_mah": 4300,
+      "price_usd": 1049.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip 5 512GB",
+      "battery_mah": 3700,
+      "price_usd": 1099.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.06
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S22 Ultra 128GB",
+      "battery_mah": 5000,
+      "price_usd": 1099.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.12
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic3 Pro",
+      "battery_mah": 4600,
+      "price_usd": 1099.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.1
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 10+ 256GB",
+      "battery_mah": 4300,
+      "price_usd": 1099.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.12
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Pro 12.9-inch 256GB",
+      "battery_mah": 9720,
+      "price_usd": 1099.0,
+      "screen_in": 12.9,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 6.94
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic7",
+      "battery_mah": 5200,
+      "price_usd": 1099.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone XS Max 64GB",
+      "battery_mah": 3174,
+      "price_usd": 1099.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.94
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11 Pro 256GB",
+      "battery_mah": 3046,
+      "price_usd": 1099.0,
+      "screen_in": 5.8,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.5
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone XS 256GB",
+      "battery_mah": 2658,
+      "price_usd": 1099.0,
+      "screen_in": 5.8,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.5
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip 4 512GB",
+      "battery_mah": 3700,
+      "price_usd": 1099.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.06
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 20 256GB",
+      "battery_mah": 4300,
+      "price_usd": 1099.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#984EA3",
+      "radius": 3.06
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab S8 Ultra 256GB",
+      "battery_mah": 11200,
+      "price_usd": 1099.0,
+      "screen_in": 14.6,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 8.0
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X6 Pro 512GB",
+      "battery_mah": 5000,
+      "price_usd": 1099.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#E41A1C",
+      "radius": 3.14
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X8 256GB",
+      "battery_mah": 4800,
+      "price_usd": 1099.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#E41A1C",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X7 256GB",
+      "battery_mah": 5000,
+      "price_usd": 1099.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.11
+    },
+    {
+      "brand": "Vivo",
+      "model": "X200 256GB",
+      "battery_mah": 6000,
+      "price_usd": 1099.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Vivo",
+      "model": "X90 Pro 256GB",
+      "battery_mah": 4870,
+      "price_usd": 1099.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find N2 256GB",
+      "battery_mah": 4520,
+      "price_usd": 1099.0,
+      "screen_in": 7.1,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.31
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 Pro 128GB",
+      "battery_mah": 4400,
+      "price_usd": 1099.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 Pro Max 128GB",
+      "battery_mah": 4500,
+      "price_usd": 1099.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 Pro 512GB",
+      "battery_mah": 4400,
+      "price_usd": 1099.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone X 256GB",
+      "battery_mah": 2716,
+      "price_usd": 1099.0,
+      "screen_in": 5.8,
+      "ram_gb": 3,
+      "color": "#377EB8",
+      "radius": 2.5
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11 Pro Max 64GB",
+      "battery_mah": 3969,
+      "price_usd": 1099.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.94
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 Pro 128GB",
+      "battery_mah": 4200,
+      "price_usd": 1099.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 Pro 256GB",
+      "battery_mah": 3095,
+      "price_usd": 1099.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Pro 11-inch 512GB",
+      "battery_mah": 7812,
+      "price_usd": 1099.0,
+      "screen_in": 11.0,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 5.75
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Pro 13-inch 128GB",
+      "battery_mah": 10307,
+      "price_usd": 1099.0,
+      "screen_in": 13.0,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 7.0
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic6",
+      "battery_mah": 5200,
+      "price_usd": 1099.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic4 Pro",
+      "battery_mah": 4600,
+      "price_usd": 1099.0,
+      "screen_in": 6.8,
+      "ram_gb": 8,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 Pro Max 128GB",
+      "battery_mah": 3687,
+      "price_usd": 1099.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 Pro 256GB",
+      "battery_mah": 2815,
+      "price_usd": 1099.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 Pro Max 128GB",
+      "battery_mah": 4352,
+      "price_usd": 1099.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 Pro Max 256GB",
+      "battery_mah": 4500,
+      "price_usd": 1199.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Vivo",
+      "model": "X90 Pro 512GB",
+      "battery_mah": 4870,
+      "price_usd": 1199.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Vivo",
+      "model": "X200 Pro 256GB",
+      "battery_mah": 6000,
+      "price_usd": 1199.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X7 Ultra 256GB",
+      "battery_mah": 5000,
+      "price_usd": 1199.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.14
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra 128GB",
+      "battery_mah": 5000,
+      "price_usd": 1199.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.12
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S23 Ultra 128GB",
+      "battery_mah": 5000,
+      "price_usd": 1199.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.12
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Pro 13-inch 256GB",
+      "battery_mah": 10307,
+      "price_usd": 1199.0,
+      "screen_in": 13.0,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 7.0
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 Pro Max 256GB",
+      "battery_mah": 3687,
+      "price_usd": 1199.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 Pro 256GB",
+      "battery_mah": 4200,
+      "price_usd": 1199.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 Pro Max 128GB",
+      "battery_mah": 4500,
+      "price_usd": 1199.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 Pro 256GB",
+      "battery_mah": 4400,
+      "price_usd": 1199.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 Pro Max 128GB",
+      "battery_mah": 4500,
+      "price_usd": 1199.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 Pro 512GB",
+      "battery_mah": 3095,
+      "price_usd": 1199.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11 Pro Max 256GB",
+      "battery_mah": 3969,
+      "price_usd": 1199.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.94
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11 Pro 512GB",
+      "battery_mah": 3046,
+      "price_usd": 1199.0,
+      "screen_in": 5.8,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.5
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 Pro 512GB",
+      "battery_mah": 2815,
+      "price_usd": 1199.0,
+      "screen_in": 6.1,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 Pro Max 256GB",
+      "battery_mah": 4352,
+      "price_usd": 1199.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic5 Pro",
+      "battery_mah": 5100,
+      "price_usd": 1199.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Tab S9 Ultra 256GB",
+      "battery_mah": 11200,
+      "price_usd": 1199.0,
+      "screen_in": 14.6,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 8.0
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 10+ 512GB",
+      "battery_mah": 4300,
+      "price_usd": 1199.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.12
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X7 512GB",
+      "battery_mah": 5000,
+      "price_usd": 1199.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#E41A1C",
+      "radius": 3.11
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S22 Ultra 256GB",
+      "battery_mah": 5000,
+      "price_usd": 1199.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.12
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone XS Max 256GB",
+      "battery_mah": 3174,
+      "price_usd": 1249.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.94
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic3 Pro+",
+      "battery_mah": 4600,
+      "price_usd": 1299.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.1
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 Pro 512GB",
+      "battery_mah": 4400,
+      "price_usd": 1299.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 Pro Max 256GB",
+      "battery_mah": 4500,
+      "price_usd": 1299.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 Pro Max 256GB",
+      "battery_mah": 4500,
+      "price_usd": 1299.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 Pro 512GB",
+      "battery_mah": 4200,
+      "price_usd": 1299.0,
+      "screen_in": 6.1,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 2.69
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone XS 512GB",
+      "battery_mah": 2658,
+      "price_usd": 1299.0,
+      "screen_in": 5.8,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.5
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic7 Pro",
+      "battery_mah": 5500,
+      "price_usd": 1299.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 16 Pro Max 512GB",
+      "battery_mah": 4500,
+      "price_usd": 1299.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X7 Ultra 512GB",
+      "battery_mah": 5000,
+      "price_usd": 1299.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#E41A1C",
+      "radius": 3.14
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find X8 Pro 256GB",
+      "battery_mah": 5000,
+      "price_usd": 1299.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.12
+    },
+    {
+      "brand": "Vivo",
+      "model": "X200 Pro 512GB",
+      "battery_mah": 6000,
+      "price_usd": 1299.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#FF7F00",
+      "radius": 3.11
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra 256GB",
+      "battery_mah": 5000,
+      "price_usd": 1299.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.12
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic6 Pro",
+      "battery_mah": 5500,
+      "price_usd": 1299.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Pro 12.9-inch 512GB",
+      "battery_mah": 9720,
+      "price_usd": 1299.0,
+      "screen_in": 12.9,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 6.94
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S23 Ultra 256GB",
+      "battery_mah": 5000,
+      "price_usd": 1299.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.12
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic4 Ultimate",
+      "battery_mah": 4600,
+      "price_usd": 1299.0,
+      "screen_in": 6.8,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 20 Ultra 128GB",
+      "battery_mah": 4500,
+      "price_usd": 1299.0,
+      "screen_in": 6.9,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.19
+    },
+    {
+      "brand": "Oppo",
+      "model": "Find N3 512GB",
+      "battery_mah": 4805,
+      "price_usd": 1399.0,
+      "screen_in": 7.8,
+      "ram_gb": 12,
+      "color": "#E41A1C",
+      "radius": 3.76
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy W21 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 1399.0,
+      "screen_in": 7.6,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.62
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Note 20 Ultra 256GB",
+      "battery_mah": 4500,
+      "price_usd": 1399.0,
+      "screen_in": 6.9,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.19
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 15 Pro Max 512GB",
+      "battery_mah": 4500,
+      "price_usd": 1399.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14 Pro Max 512GB",
+      "battery_mah": 4500,
+      "price_usd": 1399.0,
+      "screen_in": 6.7,
+      "ram_gb": 8,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone XS Max 512GB",
+      "battery_mah": 3174,
+      "price_usd": 1399.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.94
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic5 Ultimate",
+      "battery_mah": 5450,
+      "price_usd": 1399.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13 Pro Max 512GB",
+      "battery_mah": 4352,
+      "price_usd": 1399.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12 Pro Max 512GB",
+      "battery_mah": 3687,
+      "price_usd": 1399.0,
+      "screen_in": 6.7,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 3.06
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 11 Pro Max 512GB",
+      "battery_mah": 3969,
+      "price_usd": 1399.0,
+      "screen_in": 6.5,
+      "ram_gb": 4,
+      "color": "#377EB8",
+      "radius": 2.94
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Pro 13-inch 512GB",
+      "battery_mah": 10307,
+      "price_usd": 1399.0,
+      "screen_in": 13.0,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 7.0
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy W22 5G 256GB",
+      "battery_mah": 4500,
+      "price_usd": 1499.0,
+      "screen_in": 7.6,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.62
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic6 Ultimate",
+      "battery_mah": 5550,
+      "price_usd": 1499.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic7 Ultimate",
+      "battery_mah": 5550,
+      "price_usd": 1499.0,
+      "screen_in": 6.8,
+      "ram_gb": 16,
+      "color": "#4DAF4A",
+      "radius": 3.13
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Pro 13-inch 1TB",
+      "battery_mah": 10307,
+      "price_usd": 1599.0,
+      "screen_in": 13.0,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 7.0
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic Vs",
+      "battery_mah": 5000,
+      "price_usd": 1699.0,
+      "screen_in": 7.9,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.81
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold6 512GB",
+      "battery_mah": 4400,
+      "price_usd": 1719.0,
+      "screen_in": 7.6,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.62
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic V",
+      "battery_mah": 4750,
+      "price_usd": 1799.0,
+      "screen_in": 7.9,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.81
+    },
+    {
+      "brand": "Apple",
+      "model": "iPad Pro 13-inch 2TB",
+      "battery_mah": 10307,
+      "price_usd": 1799.0,
+      "screen_in": 13.0,
+      "ram_gb": 6,
+      "color": "#377EB8",
+      "radius": 7.0
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold 5 256GB",
+      "battery_mah": 4400,
+      "price_usd": 1799.0,
+      "screen_in": 7.6,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.62
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold 4 256GB",
+      "battery_mah": 4400,
+      "price_usd": 1799.0,
+      "screen_in": 7.6,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.62
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold 5 512GB",
+      "battery_mah": 4400,
+      "price_usd": 1899.0,
+      "screen_in": 7.6,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.62
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic V2",
+      "battery_mah": 5000,
+      "price_usd": 1899.0,
+      "screen_in": 7.9,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.83
+    },
+    {
+      "brand": "Honor",
+      "model": "Magic V3",
+      "battery_mah": 5000,
+      "price_usd": 1899.0,
+      "screen_in": 7.9,
+      "ram_gb": 12,
+      "color": "#4DAF4A",
+      "radius": 3.83
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold 4 512GB",
+      "battery_mah": 4400,
+      "price_usd": 1899.0,
+      "screen_in": 7.6,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.62
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold6 256GB",
+      "battery_mah": 4400,
+      "price_usd": 1899.0,
+      "screen_in": 7.6,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.62
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold6 1TB",
+      "battery_mah": 4400,
+      "price_usd": 2259.0,
+      "screen_in": 7.6,
+      "ram_gb": 12,
+      "color": "#984EA3",
+      "radius": 3.62
+    }
+  ],
+  "bat_domain_min": 1900.0,
+  "bat_domain_max": 11424.0,
+  "price_domain_max": 2439.7,
+  "legend": [
+    {
+      "brand": "Oppo",
+      "color": "#E41A1C"
+    },
+    {
+      "brand": "Apple",
+      "color": "#377EB8"
+    },
+    {
+      "brand": "Honor",
+      "color": "#4DAF4A"
+    },
+    {
+      "brand": "Samsung",
+      "color": "#984EA3"
+    },
+    {
+      "brand": "Vivo",
+      "color": "#FF7F00"
+    },
+    {
+      "brand": "Realme",
+      "color": "#A65628"
+    }
+  ]
+}
