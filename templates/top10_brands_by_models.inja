@@ -1,4 +1,4 @@
-{# Top 10 Marcas por Número de Modelos — Barras horizontales #}
+
 
 {% set margin = obj("top", 50, "right", 60, "bottom", 55, "left", 100) %}
 {% set width  = 720 - margin.left - margin.right %}

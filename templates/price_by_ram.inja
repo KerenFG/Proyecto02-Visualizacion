@@ -1,5 +1,3 @@
-{# Precio según RAM del Dispositivo — Gráfica de líneas bidimensional #}
-{# Patrón: line_plot.inja — shapeLine + append por serie #}
 
 {% set width  = 760 %}
 {% set height = 500 %}

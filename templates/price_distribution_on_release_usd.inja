@@ -1,4 +1,4 @@
-{# Distribución de Precios de Lanzamiento (USD) — Histograma #}
+
 
 {% set margin = obj("top", 55, "right", 45, "bottom", 72, "left", 72) %}
 {% set width  = 800 - margin.left - margin.right %}
