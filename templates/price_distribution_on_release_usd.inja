@@ -15,7 +15,32 @@
 
 <svg width="{{ width + margin.left + margin.right }}"
      height="{{ height + margin.top + margin.bottom }}"
-     xmlns="http://www.w3.org/2000/svg">
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:v="https://odviz.org/1.0/">
+
+  <metadata>
+    <v:table name="price_distribution_usd"
+             columns="bin_index,x0,x1,x_mid,count"
+             description="Distribución de Precios de Lanzamiento en USD"
+             version="1.0"
+             visualization="histogram"
+             created="2026-06-11"
+             source="MobilesDataset2025.csv"
+             language="es"
+             currency="USD"
+             author="KerenFG">
+      <v:columns>
+        <v:column name="bin_index" type="integer"/>
+        <v:column name="x0"       type="decimal"/>
+        <v:column name="x1"       type="decimal"/>
+        <v:column name="x_mid"    type="decimal"/>
+        <v:column name="count"    type="integer"/>
+      </v:columns>
+      {% for bin in data %}
+      <v:row id="bin-{{ bin.bin_index }}" hrefs="bar-{{ bin.bin_index }}">{{ bin.bin_index }},{{ bin.x0 }},{{ bin.x1 }},{{ bin.x_mid }},{{ bin.count }}</v:row>
+      {% endfor %}
+    </v:table>
+  </metadata>
 
   <style>
     .tick-label  { font-family: sans-serif; font-size: 11px; fill: #555; }
@@ -50,7 +75,9 @@
     {# Bars #}
     {% for bin in data %}
       {% if bin.count > 0 %}
-        <rect class="bar"
+        <rect id="bar-{{ bin.bin_index }}"
+              href="#bin-{{ bin.bin_index }}"
+              class="bar"
               x="{{ scale(xScale, bin.x0) + 1 }}"
               y="{{ scale(yScale, bin.count) }}"
               width="{{ scale(xScale, bin.x1) - scale(xScale, bin.x0) - 1 }}"

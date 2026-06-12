@@ -7,7 +7,33 @@
 
 <svg width="{{ width + margin.left + margin.right }}"
      height="{{ height + margin.top + margin.bottom }}"
-     xmlns="http://www.w3.org/2000/svg">
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:v="https://odviz.org/1.0/">
+
+  <metadata>
+    <v:table name="price_battery_scatter"
+             columns="brand,battery_mah,price_usd,screen_in,ram_gb"
+             description="Precio vs. Batería por Marca — Top 6 marcas (tamaño = pantalla)"
+             version="1.0"
+             visualization="scatter"
+             created="2026-06-11"
+             source="MobilesDataset2025.csv"
+             language="es"
+             currency="USD"
+             unit="mAh"
+             author="KerenFG">
+      <v:columns>
+        <v:column name="brand"       type="string"/>
+        <v:column name="battery_mah" type="integer"/>
+        <v:column name="price_usd"   type="decimal"/>
+        <v:column name="screen_in"   type="decimal"/>
+        <v:column name="ram_gb"      type="integer"/>
+      </v:columns>
+      {% for d in data %}
+      <v:row id="point-{{ loop.index }}" hrefs="circle-{{ loop.index }}">{{ d.brand }},{{ d.battery_mah }},{{ d.price_usd }},{{ d.screen_in }},{{ d.ram_gb }}</v:row>
+      {% endfor %}
+    </v:table>
+  </metadata>
 
   <style>
     .tick-label  { font-family: sans-serif; font-size: 11px; fill: #555; }
@@ -66,7 +92,9 @@
     {# Scatter points — color y radius pre-computados en Python #}
     <g>
     {% for d in data %}
-      <circle cx="{{ scale(x, d.battery_mah) }}"
+      <circle id="circle-{{ loop.index }}"
+              href="#point-{{ loop.index }}"
+              cx="{{ scale(x, d.battery_mah) }}"
               cy="{{ scale(y, d.price_usd) }}"
               r="{{ d.radius }}"
               fill="{{ d.color }}"

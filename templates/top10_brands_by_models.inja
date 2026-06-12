@@ -17,7 +17,29 @@
 
 <svg width="{{ width + margin.left + margin.right }}"
      height="{{ height + margin.top + margin.bottom }}"
-     xmlns="http://www.w3.org/2000/svg">
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:v="https://odviz.org/1.0/">
+
+  <metadata>
+    <v:table name="top10_brands"
+             columns="brand,count,color"
+             description="Top 10 Marcas por Número de Modelos"
+             version="1.0"
+             visualization="bar"
+             created="2026-06-11"
+             source="MobilesDataset2025.csv"
+             language="es"
+             author="KerenFG">
+      <v:columns>
+        <v:column name="brand" type="string"/>
+        <v:column name="count" type="integer"/>
+        <v:column name="color" type="string"/>
+      </v:columns>
+      {% for d in data %}
+      <v:row id="brand-{{ loop.index }}" hrefs="bar-brand-{{ loop.index }}">{{ d.brand }},{{ d.count }},{{ d.color }}</v:row>
+      {% endfor %}
+    </v:table>
+  </metadata>
 
   <style>
     .tick-label  { font-family: sans-serif; font-size: 11px; fill: #555; }
@@ -52,7 +74,9 @@
       {% set by = scale(yScale, d.brand) %}
       {% set bh = bandwidth(yScale) %}
 
-      <rect x="0"
+      <rect id="bar-brand-{{ loop.index }}"
+            href="#brand-{{ loop.index }}"
+            x="0"
             y="{{ by }}"
             width="{{ bw }}"
             height="{{ bh }}"
